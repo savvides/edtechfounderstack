@@ -1,0 +1,110 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# EdTech Founder Stack — Setup Script
+# Installs skills into Claude Code by creating symlinks
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+SKILLS_DIR="$HOME/.claude/skills"
+REPO_LINK="$SKILLS_DIR/edtechfounderstack"
+
+SKILLS=(
+  edtech-landscape
+  idea-validation
+  product-review
+  accessibility-check
+  evidence-check
+  pilot-design
+  go-to-market
+  sales-strategy
+  pitch-review
+  fundraising-guide
+)
+
+# Uninstall mode
+if [[ "${1:-}" == "--uninstall" ]]; then
+  echo "Uninstalling EdTech Founder Stack..."
+  for skill in "${SKILLS[@]}"; do
+    if [[ -L "$SKILLS_DIR/$skill" ]]; then
+      rm "$SKILLS_DIR/$skill"
+      echo "  Removed /$skill"
+    fi
+  done
+  if [[ -L "$REPO_LINK" ]]; then
+    rm "$REPO_LINK"
+    echo "  Removed repo symlink"
+  fi
+  echo ""
+  echo "Done. Skills removed from Claude Code."
+  exit 0
+fi
+
+echo "Installing EdTech Founder Stack..."
+echo ""
+
+# Create skills directory if it doesn't exist
+mkdir -p "$SKILLS_DIR"
+
+# Link the repo itself
+if [[ -L "$REPO_LINK" ]]; then
+  echo "  Repo symlink already exists, skipping"
+elif [[ -e "$REPO_LINK" ]]; then
+  echo "  Warning: $REPO_LINK exists but is not a symlink, skipping"
+else
+  ln -s "$SCRIPT_DIR" "$REPO_LINK"
+  echo "  Linked repo to $REPO_LINK"
+fi
+
+# Link each skill
+installed=0
+skipped=0
+for skill in "${SKILLS[@]}"; do
+  target="$SKILLS_DIR/$skill"
+  source="$SCRIPT_DIR/skills/$skill"
+
+  if [[ ! -d "$source" ]]; then
+    echo "  Warning: skills/$skill not found, skipping"
+    continue
+  fi
+
+  if [[ -L "$target" ]]; then
+    skipped=$((skipped + 1))
+  elif [[ -e "$target" ]]; then
+    echo "  Warning: $target exists but is not a symlink, skipping"
+    skipped=$((skipped + 1))
+  else
+    ln -s "$source" "$target"
+    installed=$((installed + 1))
+  fi
+done
+
+echo ""
+echo "EdTech Founder Stack v$(cat "$SCRIPT_DIR/VERSION" 2>/dev/null || echo "unknown") installed."
+echo ""
+echo "  $installed skills installed, $skipped already existed"
+echo ""
+echo "Available skills:"
+echo ""
+echo "  Discovery & Validation"
+echo "    /edtech-landscape     Map your market segment, buyer, and regulatory landscape"
+echo "    /idea-validation      Pressure-test your edtech idea against market reality"
+echo ""
+echo "  Product"
+echo "    /product-review       Review product through educational outcomes lens"
+echo "    /accessibility-check  WCAG, Section 508, and UDL compliance check"
+echo ""
+echo "  Evidence & Research"
+echo "    /evidence-check       Classify evidence on ESSA tiers with gap analysis"
+echo "    /pilot-design         Design effective institutional pilots"
+echo ""
+echo "  Sales & Go-to-Market"
+echo "    /go-to-market         Edtech GTM strategy by segment and channel"
+echo "    /sales-strategy       Selling to schools, districts, and universities"
+echo ""
+echo "  Fundraising & Growth"
+echo "    /pitch-review         Review pitch through edtech investor lens"
+echo "    /fundraising-guide    Edtech-specific fundraising guidance"
+echo ""
+echo "Built by ASU ScaleU. More at scaleu.asu.edu"
+echo ""
+echo "To uninstall: ./setup --uninstall"

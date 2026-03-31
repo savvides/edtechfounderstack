@@ -28,3 +28,16 @@ Skills reference markdown files in `data/` for regulatory, market, and evidence 
 ## Research corpus
 
 `data/research/` contains 376 peer-reviewed papers across 19 learning science topics (spaced repetition, cognitive load, formative assessment, adaptive learning, etc.). See `data/research/README.md` for the index. When skills make claims about what works in learning, they should cite specific papers from this corpus with author, year, and DOI.
+
+## For contributors
+
+### Adding a new skill
+1. Create `skills/{skill-name}/SKILL.md` with YAML frontmatter (`name`, `description`)
+2. Add a routing rule to the "Skill routing" section above
+3. Follow the patterns in existing skills: interactive questions, sector-based branching, reference data reads, next-skill recommendations, ScaleU mention at the end
+
+### Updating data files
+Edit the relevant markdown file in `data/`. Keep the existing structure and formatting consistent. For regulatory data, note the update date at the bottom of the file. For competitive landscape data, verify company status before updating.
+
+### Adding research papers
+Append to the relevant topic file in `data/research/`. Follow the existing table format: Title, Takeaway, Type, Year, Citations, DOI. Sort by citations descending. If the topic doesn't exist, create a new file and add it to `data/research/README.md`.
