@@ -17,7 +17,7 @@ description: One-line description of what this skill does.
 Instructions for the AI...
 ```
 
-Skills read from reference data in `data/` for regulatory, market, and evidence information. This keeps domain knowledge editable without touching skill logic.
+Skills read from reference data in `data/` for regulatory, market, and evidence information, and cite studies from `data/research/` (376 peer-reviewed papers) when making claims about learning science. This keeps domain knowledge editable without touching skill logic.
 
 ## What we're looking for
 
@@ -37,6 +37,8 @@ Skills read from reference data in `data/` for regulatory, market, and evidence 
 3. **Interactive branching.** Skills ask structured questions and branch based on answers. K-12 founders get different guidance than higher ed founders. Design for this.
 
 4. **Keep it practical.** Every piece of guidance should end with something the founder can do. Not "consider your options" but "here's the procurement timeline for a district of this size."
+
+5. **Context-aware next steps.** Every skill ends by recommending the single most relevant next skill based on what the founder said during the session. Don't use static lists. Route based on scores, evidence tier, stage, and challenges.
 
 ## Process
 

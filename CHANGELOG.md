@@ -1,5 +1,30 @@
 # Changelog
 
+## 1.1.0 (2026-03-31)
+
+### Smart skill navigation
+
+Skills now recommend the single most relevant next step based on your specific answers during the session, not a static list. `/product-review` sees your evidence score is low and sends you to `/evidence-check`. `/idea-validation` gives you a GO verdict and routes you to `/product-review`. Every skill is context-aware.
+
+### Framework packaging (modeled after gstack)
+
+- **One-line install:** `./setup` creates symlinks for all 10 skills in Claude Code
+- **ETHOS.md:** 7 principles encoding ScaleU's philosophy on what makes edtech products succeed
+- **ARCHITECTURE.md:** How skills, data files, research corpus, and higher ed framework fit together
+- **Multi-platform install:** Instructions for Claude Code, Codex CLI, Gemini CLI, and Cursor
+- **Versioning:** VERSION file and CHANGELOG for release management
+
+### Higher ed framework (SXSW EDU 2026)
+
+- 15 validated jobs across 6 student journey phases in `data/higher-ed-jobs-atlas.md`
+- 4 structural patterns founders miss in `data/founder-traps.md`
+- Skills for higher ed founders now use ScaleU's 5-question diagnostic and noise vs. signal filter
+
+### Research corpus
+
+- 376 peer-reviewed papers across 19 learning science topics in `data/research/`
+- Skills cite specific studies with author, year, finding, and DOI
+
 ## 1.0.0 (2026-03-31)
 
 Initial release.

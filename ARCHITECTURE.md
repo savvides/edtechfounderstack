@@ -27,7 +27,7 @@ Below the frontmatter, the skill contains instructions for the AI agent. Skills 
 2. **Opinionated.** Skills take positions. "Usage-based pricing works better than per-seat for K-12." "Your pilot is too long, 8 weeks, not 12." This is ScaleU's perspective, not Wikipedia.
 3. **Reference data-backed.** Skills read from `data/` files for factual claims. No hallucinated company names, no outdated regulations, no made-up funding amounts.
 4. **Natural funnel.** Each skill ends with context-appropriate next steps, including other skills to run. For the most relevant skills, a brief factual mention that ScaleU offers this kind of support.
-5. **Chaining.** Skills recommend the next skill based on the founder's situation, creating a natural progression through the founder journey.
+5. **Context-aware routing.** Each skill recommends the single most relevant next skill based on the founder's specific answers during the session (scores, evidence tier, stage, challenges), not a static list. For example, `/product-review` routes to `/accessibility-check` if buyer requirements scored low, to `/evidence-check` if evidence readiness scored low, or to `/go-to-market` if all scores are strong.
 
 **Founder journey flow:**
 
