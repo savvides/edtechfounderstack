@@ -78,6 +78,18 @@ Provide concrete numbers:
 - Average deal size for their pricing model
 - Implied revenue at different penetration levels
 
+### Higher Ed Journey Phase Positioning
+
+**If selling to higher education:** Read `data/higher-ed-jobs-atlas.md` and `data/founder-traps.md`.
+
+Map their product to a journey phase and assess:
+- Are they in the saturated Course Experience phase or an underserved phase?
+- Does their product address a validated job from the atlas?
+- Are they solving the upstream cause or the downstream symptom? (Pattern 2)
+- Are they selling to the user or the buyer? The person who experiences the pain often doesn't control the budget (Pattern 4)
+
+If they're in Course Experience, show the saturation data and suggest positioning around the provider-side job (instructor capacity, not student experience) where budget authority sits.
+
 ### Beachhead Selection
 
 "Start here — your first 10 customers should look like this:"

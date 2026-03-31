@@ -82,6 +82,18 @@ Based on their sector answer, ask the appropriate question:
 - No, the product doesn't use AI
 - Planning to add AI
 
+## Phase 1.5: Higher Ed Journey Phase Mapping
+
+**If the founder selected Higher Education:** Read `data/higher-ed-jobs-atlas.md` and map their product to a specific student journey phase and job.
+
+Output:
+- Which journey phase their product addresses (Pre-enroll, Apply, Onboard, Select & enroll, Course experience, Graduate & beyond)
+- Whether that phase is Underserved, Saturated, or Partial coverage
+- Which specific validated job(s) their product maps to
+- If they're in Course Experience: flag that this is the most crowded phase (15+ product categories) and suggest they consider whether their product could address the upstream cause in an adjacent phase instead (see `data/founder-traps.md`, Pattern 2)
+
+**If the founder selected K-12 or Corporate L&D:** Skip this section.
+
 ## Phase 2: Regulatory Briefing
 
 Based on the sector answer, read the appropriate reference file and provide a targeted regulatory summary.

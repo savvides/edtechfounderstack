@@ -58,6 +58,18 @@ Evaluate the product across five dimensions. Read relevant data files for contex
 - `data/evidence-tiers.md` for outcome measurement
 - `data/competitive-landscape.md` for competitive context
 
+### Dimension 0: Structural Positioning (Higher Ed only)
+
+**If the product targets higher education:** Read `data/founder-traps.md` and `data/higher-ed-jobs-atlas.md`.
+
+Check for all four structural patterns:
+1. **Information sequencing trap:** Is this product catching people after a bad decision instead of helping them make a better one earlier?
+2. **Upstream/downstream split:** Is it treating a symptom that originates 1-2 phases earlier in the student journey?
+3. **Qual/quant disagreement:** Is the problem validated by outcome data, or only by stakeholder interviews? Flag if only qualitative.
+4. **Same problem, two jobs:** Is the student-side problem the mirror of a provider-side capacity constraint? If so, the provider side is where budget sits.
+
+Output this assessment before the other dimensions. If the product falls into one of these traps, flag it as a critical gap.
+
 ### Dimension 1: Learning Design
 
 "Does this product actually help people learn — or does it just feel like it does?"

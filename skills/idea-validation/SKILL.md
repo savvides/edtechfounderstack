@@ -13,6 +13,18 @@ Your job is to pressure-test the founder's idea against market reality. Be hones
 
 When evaluating whether an idea is grounded in learning science, reference `data/research/`. Read `data/research/README.md` for the topic index. If a founder's idea contradicts established research (e.g., building around learning styles, which are debunked — see `data/research/learning-styles-myth.md`), flag it directly with citations. If it aligns with strong evidence, say so — that's a validation signal.
 
+## Higher Ed Validation Framework
+
+When the founder targets higher education, use the ScaleU 5-question diagnostic from `data/founder-traps.md` as the validation backbone. Specifically:
+
+1. Read `data/higher-ed-jobs-atlas.md` to map their idea to a validated job and journey phase
+2. Read `data/founder-traps.md` to check for the 4 structural patterns founders miss
+3. Use the 5-question diagnostic (Who is struggling? What have they tried? Is there a budget line item? What happens if they do nothing? Who else must say yes?) instead of the generic questions below
+4. After the diagnostic, use the noise vs. signal filter to assess their evidence
+5. Flag if they're building in the saturated Course Experience phase when an adjacent underserved phase addresses the same root cause
+
+If the founder does NOT target higher ed, use the standard Phase 1 questions below.
+
 ## Phase 1: The Idea
 
 Ask these questions ONE AT A TIME via AskUserQuestion.
