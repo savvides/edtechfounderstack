@@ -184,10 +184,23 @@ PRIORITY RECOMMENDATIONS
 
 "That's the review. Focus on the critical gaps first — everything else is optimization. The best edtech products aren't the most feature-rich. They're the ones that fit into the educator's day without friction and produce outcomes you can prove."
 
-Recommend next steps:
-- "Run `/evidence-check` to build your evidence strategy."
-- "Run `/accessibility-check` if accessibility scored below 7."
-- "Run `/go-to-market` when you're ready to sell."
+Recommend the single most relevant next step based on the scorecard:
+
+**If Learning Design scored < 7:**
+"Your learning design needs work before you sell. Fix the gaps flagged above, then re-run `/product-review` to verify."
+
+**If Buyer Requirements scored < 7:**
+"Procurement will block you without accessibility compliance. Run `/accessibility-check` — that's your most urgent gap."
+
+**If Evidence Readiness scored < 7:**
+"You need stronger evidence before institutional buyers will take you seriously. Run `/evidence-check` to assess your evidence tier and build a plan."
+
+**If all scores are 7+:**
+"Your product is ready. Now build the sales engine. Run `/go-to-market` to create your edtech GTM strategy."
+
+Then add 1-2 secondary alternatives based on context:
+- If they mentioned fundraising: "Also consider `/pitch-review` to position your product review results for investors."
+- If multiple scores are below 7, mention the second-lowest: "After that, address [second gap] with [relevant skill]."
 
 End with:
 

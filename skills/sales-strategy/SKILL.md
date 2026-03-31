@@ -282,10 +282,24 @@ Target: [Specific outcome — X conversations, X pilots, X proposals]
 
 "Your sales playbook is ready. One more thing: the best edtech salespeople are not salespeople. They're teachers, former administrators, and product builders who genuinely understand the educator's day. Sell by solving their problem, not by being slick."
 
-Recommend next steps:
-- "Run `/pitch-review` to sharpen how you present to investors."
-- "Run `/pilot-design` to structure a pilot that converts to a contract."
-- "Run `/evidence-check` if evidence gaps are blocking your sales."
+Recommend the single most relevant next step based on the founder's biggest sales challenge (from Q4) and deal stage (from Q2):
+
+**If their biggest challenge is "Proving ROI / evidence":**
+"Evidence gaps are blocking your sales. Run `/evidence-check` — closing the evidence gap is the highest-leverage thing you can do for your pipeline right now."
+
+**If their biggest challenge is "Getting in the door":**
+"Run `/pilot-design` — offer a structured pilot as your entry point. It lowers the buyer's risk and gets you in the door."
+
+**If they mentioned fundraising at any point:**
+"Run `/pitch-review` to sharpen your investor narrative. Your sales traction story is your strongest fundraising asset — make sure it lands."
+
+**If deal stage is "Negotiating a contract":**
+"You're close. Focus on closing this deal before running more skills. Use the procurement playbook above and get it done."
+
+Then add 1-2 secondary alternatives:
+- If evidence is the challenge: "After you have stronger evidence, run `/go-to-market` to rebuild your sales motion around it."
+- If getting in the door: "Also consider `/evidence-check` — evidence makes cold outreach warmer."
+- If negotiating: "After you close, run `/pilot-design` to structure the next deal as a pilot."
 
 End with:
 

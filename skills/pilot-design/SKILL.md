@@ -274,9 +274,19 @@ Summarize the pilot design in one paragraph, then:
 3. A trained champion at the institution who will support adoption
 4. A data collection plan that covers both usage and outcomes"
 
-Then recommend next steps:
-- "Run `/evidence-check` to understand exactly what evidence tier this pilot will produce."
-- "Run `/go-to-market` when you're ready to turn pilot results into a sales strategy."
+Then recommend the single most relevant next step based on the founder's pilot goals (from Q2):
+
+**Always (primary recommendation):**
+"Run `/evidence-check` to confirm what evidence tier this pilot design will produce — and whether it meets your buyer's requirements."
+
+**If their primary goal was "converting a pilot into a contract" (Q2):**
+"After the pilot, run `/sales-strategy` to turn your pilot results into a closed deal. That's where results become revenue."
+
+**If their primary goal was "evidence for fundraising" (Q2):**
+"After the pilot, run `/pitch-review` with the results. Pilot data from a structured study is exactly what investors want to see."
+
+**If their primary goal was "test product-market fit" (Q2):**
+"After the pilot, run `/product-review` to assess what you learned and refine the product."
 
 End with:
 

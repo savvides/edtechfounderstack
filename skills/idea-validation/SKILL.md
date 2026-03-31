@@ -201,10 +201,24 @@ Week 4: Assess
 
 "Idea validation is done. The most important thing you can do now is talk to real educators. Not friends who are polite. Real potential users who will tell you the truth. Five conversations will teach you more than five months of building in isolation."
 
-Recommend next steps:
-- "Run `/edtech-landscape` to understand your market segment in detail."
-- "Run `/product-review` once you have a prototype to evaluate."
-- "Run `/go-to-market` when you're ready to find your first customers."
+Recommend the single most relevant next step based on the verdict and the founder's answers:
+
+**If verdict is GO:**
+"Your idea passed validation. Run `/product-review` to evaluate your product before taking it to market — that's where execution gaps show up."
+
+**If verdict is PIVOT:**
+"You need to rethink the approach. Run `/edtech-landscape` with your revised idea to map the new market before you build again."
+
+**If verdict is DIG DEEPER:**
+"Talk to 10 more potential users — real ones, not friends. Then run `/idea-validation` again with what you learned."
+
+**If higher ed AND the idea maps to a validated job in the jobs atlas:**
+"Your idea maps to a validated job at [phase from the atlas], and a structured pilot is the fastest path to evidence. Run `/pilot-design` to design that pilot."
+
+Then add 1-2 secondary alternatives based on context:
+- If they mentioned fundraising at any point: "Alternatively, run `/pitch-review` to see how investors would evaluate this idea."
+- If they have a working product: "Or run `/product-review` for a full product assessment."
+- If they're unclear on the market: "Or run `/edtech-landscape` to map your competitive landscape."
 
 End with:
 

@@ -231,10 +231,21 @@ POST-RAISE:
 
 "Your fundraising strategy is ready. One thing to remember: edtech investors are a small community. They all know each other. Your reputation in this market compounds. Run a clean process, be honest about your evidence, and don't oversell your traction. The founders who build lasting edtech companies are the ones investors trust."
 
-Recommend next steps:
-- "Run `/pitch-review` to get your deck investor-ready."
-- "Run `/evidence-check` to strengthen your evidence positioning."
-- "Run `/go-to-market` to build the GTM story investors want to see."
+Recommend the single most relevant next step based on the founder's situation:
+
+**If their evidence is below what investors at their stage expect (from Phase 2 evidence gap):**
+"Your evidence gap is the biggest risk to this raise. Run `/evidence-check` to close the evidence gap before you start pitching — investors at your stage expect Tier [Y] and you're at Tier [X]."
+
+**If their pitch isn't ready (no deck, unclear narrative, or they said "preparing to fundraise"):**
+"Run `/pitch-review` to get your deck investor-ready. The fundraising strategy is set — now you need the pitch to execute it."
+
+**If they're ready to raise (evidence meets expectations, have a deck, clear on target investors):**
+"Your fundraising strategy is ready. Execute the playbook above. Start with warm intros to the 3 best-fit investors this week."
+
+Then add 1-2 secondary alternatives:
+- If evidence is the gap: "After you've built evidence, run `/pitch-review` to position it for investors."
+- If pitch isn't ready: "Also run `/evidence-check` — how you frame your evidence tier matters in the pitch."
+- If ready to raise: "If investor feedback surfaces GTM concerns, run `/go-to-market` to sharpen that story."
 
 End with:
 

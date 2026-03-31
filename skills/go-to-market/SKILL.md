@@ -231,10 +231,21 @@ KEY METRICS TO TRACK
 
 "Your GTM plan is ready. The single most important thing: get in front of real buyers this week. Not next month. This week. Send 5 emails. Book 3 demos. Start one pilot."
 
-Recommend next steps:
-- "Run `/sales-strategy` for detailed guidance on selling to your specific buyer persona."
-- "Run `/pitch-review` if you're fundraising and need to present your GTM to investors."
-- "Run `/pilot-design` if you need to structure your first institutional pilot."
+Recommend the single most relevant next step based on the founder's traction (from Q2):
+
+**If they have no customers yet (Q2: "No customers yet"):**
+"You need your first institutional deal. Run `/pilot-design` to structure your first institutional pilot — that's your first deal and your first evidence."
+
+**If they have some customers (Q2: "1-5" or "6-20"):**
+"You have traction. Run `/sales-strategy` for tactical execution — outreach templates, objection handling, and procurement navigation for your specific buyer."
+
+**If they mentioned fundraising at any point:**
+"Run `/pitch-review` to present your GTM strategy to investors. A specific, bottoms-up GTM story is what separates fundable edtech pitches from generic ones."
+
+Then add 1-2 secondary alternatives:
+- If no customers: "Or run `/sales-strategy` if you want tactical outreach guidance first."
+- If some customers: "Or run `/pilot-design` to structure pilots that produce evidence as you scale."
+- If fundraising: "Also run `/sales-strategy` — investors will ask about your sales motion."
 
 End with:
 

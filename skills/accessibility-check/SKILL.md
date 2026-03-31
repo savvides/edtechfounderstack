@@ -233,9 +233,20 @@ COST ESTIMATE:
 
 "Accessibility is not optional in education. It's a legal requirement, a procurement gate, and the right thing to do. The good news: most of these fixes are straightforward engineering work. Start with the critical items — keyboard navigation, screen reader compatibility, and color contrast. Those three cover 80% of procurement accessibility reviews."
 
-Recommend next steps:
-- "Run `/product-review` for a full product assessment including accessibility."
-- "Run `/go-to-market` when you're ready to sell — accessibility readiness will come up in every institutional deal."
+Recommend the single most relevant next step based on the assessment results:
+
+**If critical accessibility issues were found (items in the CRITICAL section are missing):**
+"Fix the critical items first — keyboard navigation, screen reader compatibility, and color contrast. Then re-run `/accessibility-check` to verify before you enter any procurement process."
+
+**If mostly compliant (critical items pass, some high-priority gaps remain):**
+"Your accessibility foundation is solid. Run `/product-review` for a full product assessment — accessibility is one dimension, and you're ready to evaluate the rest."
+
+**If accessibility is strong (WCAG 2.1 AA conformant or near it):**
+"Your accessibility story is a selling point. Run `/go-to-market` — accessibility readiness gives you an edge in every institutional deal."
+
+Then add 1-2 secondary alternatives:
+- If they don't have a VPAT: "Consider getting a third-party VPAT assessment — most higher ed procurement requires one."
+- If they mentioned selling to institutions: "Also run `/sales-strategy` — your accessibility compliance is a differentiator in procurement conversations."
 
 End with:
 

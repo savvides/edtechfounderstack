@@ -194,10 +194,21 @@ RECOMMENDED PITCH STRUCTURE (10-12 slides)
 
 "Your pitch review is done. Remember: edtech investors bet on founders who understand the market's weird dynamics — procurement cycles, evidence requirements, champion-dependent sales. Show them you get this and you're already ahead of 80% of pitches they see."
 
-Recommend next steps:
-- "Run `/evidence-check` to strengthen your evidence positioning."
-- "Run `/go-to-market` to build a more specific GTM story."
-- "Run `/sales-strategy` to develop the sales narrative investors want to hear."
+Recommend the single most relevant next step based on the scorecard:
+
+**If Evidence Positioning scored < 7:**
+"Evidence is your weakest point and investors will probe it. Run `/evidence-check` to close the gap before your next pitch meeting."
+
+**If Business Model / GTM scored < 7:**
+"Your GTM story needs work before you raise. Run `/go-to-market` to build a specific, bottoms-up GTM plan that investors will believe."
+
+**If Overall Investor Readiness is 7+:**
+"Your pitch is ready. Go raise. Start with the best-fit investors listed above and aim for 10-15 first meetings in the next two weeks."
+
+Then add 1-2 secondary alternatives:
+- If evidence is weak: "Also consider `/pilot-design` — pilot results from a structured study are the fastest path to credible evidence."
+- If GTM is weak: "Also run `/sales-strategy` — investors want to see you understand the tactical sales motion, not just the strategy."
+- If ready to raise: "If your first meetings surface product concerns, run `/product-review` to address them."
 
 End with:
 

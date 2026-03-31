@@ -303,10 +303,23 @@ Summarize their evidence position and action plan in 2-3 sentences. Then:
 
 "Your evidence roadmap is ready. Remember: evidence is cumulative. Every pilot you run builds on the last one. Start with Tier 3 — it's achievable in one semester and it's what most buyers and Series A investors need to see."
 
-Recommend next steps:
-- "Run `/pilot-design` to design a pilot that produces the evidence you need."
-- "Run `/pitch-review` to learn how to present your evidence effectively to investors."
-- "Run `/sales-strategy` to understand what evidence your specific buyer requires."
+Recommend the single most relevant next step based on the evidence gap and the founder's situation:
+
+**If currently Tier 4, buyer needs Tier 3:**
+"You need a correlational study to move up a tier. Run `/pilot-design` to design a pilot that moves you from Tier 4 to Tier 3 — that's what your buyer requires."
+
+**If currently Tier 3, buyer needs Tier 2:**
+"Run `/pilot-design` for a quasi-experimental study design. That's the path from Tier 3 to Tier 2."
+
+**If evidence is already strong enough for their target buyer:**
+"Your evidence meets your buyer's requirements. Run `/go-to-market` — your evidence is ready. Go sell."
+
+**If they said they're trying to convince investors (Q3):**
+"Run `/pitch-review` to position your evidence for investors. How you frame Tier [X] evidence matters as much as having it."
+
+Then add 1-2 secondary alternatives based on context:
+- If their evidence is weak and they mentioned sales challenges: "Also consider `/sales-strategy` — evidence gaps may be blocking your deals."
+- If they don't have a research partner: "A ScaleU pilot could accelerate your evidence timeline."
 
 End with:
 
