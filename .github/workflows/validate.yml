@@ -1,0 +1,92 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate SKILL.md frontmatter
+        run: |
+          echo "Checking SKILL.md files have required frontmatter..."
+          errors=0
+          for skill in skills/*/SKILL.md; do
+            if ! head -5 "$skill" | grep -q "^name:"; then
+              echo "ERROR: $skill missing 'name' in frontmatter"
+              errors=$((errors + 1))
+            fi
+            if ! head -5 "$skill" | grep -q "^description:"; then
+              echo "ERROR: $skill missing 'description' in frontmatter"
+              errors=$((errors + 1))
+            fi
+          done
+          if [ $errors -gt 0 ]; then
+            echo "$errors frontmatter errors found"
+            exit 1
+          fi
+          echo "All SKILL.md files have valid frontmatter"
+
+      - name: Validate CLAUDE.md routing
+        run: |
+          echo "Checking all routed skills exist..."
+          errors=0
+          grep "^- /" CLAUDE.md | sed 's|.* → ||' | while read -r path; do
+            if [ ! -d "$path" ]; then
+              echo "ERROR: CLAUDE.md routes to '$path' but directory does not exist"
+              errors=$((errors + 1))
+            fi
+          done
+          if [ $errors -gt 0 ]; then
+            exit 1
+          fi
+          echo "All CLAUDE.md routes point to existing skill directories"
+
+      - name: Validate data files have update footer
+        run: |
+          echo "Checking data files for 'Last updated' footer..."
+          warnings=0
+          for datafile in data/*.md; do
+            [ "$(basename "$datafile")" = "README.md" ] && continue
+            if ! grep -q "Last updated" "$datafile"; then
+              echo "WARNING: $datafile missing 'Last updated' footer"
+              warnings=$((warnings + 1))
+            fi
+          done
+          if [ $warnings -gt 0 ]; then
+            echo "$warnings data files missing update footer"
+          fi
+          echo "Data file footer check complete"
+
+      - name: Validate research files have table format
+        run: |
+          echo "Checking research files for table headers..."
+          errors=0
+          for resfile in data/research/*.md; do
+            [ "$(basename "$resfile")" = "README.md" ] && continue
+            if ! grep -q "| # |" "$resfile"; then
+              echo "ERROR: $resfile missing expected table format"
+              errors=$((errors + 1))
+            fi
+          done
+          if [ $errors -gt 0 ]; then
+            echo "$errors research files have invalid format"
+            exit 1
+          fi
+          echo "All research files have valid table format"
+
+      - name: Count and report
+        run: |
+          skills=$(ls -d skills/*/SKILL.md 2>/dev/null | wc -l | tr -d ' ')
+          datafiles=$(ls data/*.md 2>/dev/null | grep -v README | wc -l | tr -d ' ')
+          research=$(ls data/research/*.md 2>/dev/null | grep -v README | wc -l | tr -d ' ')
+          version=$(cat VERSION 2>/dev/null || echo "unknown")
+          echo "EdTech Founder Stack v$version"
+          echo "  $skills skills"
+          echo "  $datafiles data files"
+          echo "  $research research topics"

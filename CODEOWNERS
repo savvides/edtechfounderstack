@@ -1,0 +1,14 @@
+# EdTech Founder Stack — Code Owners
+# PRs to these paths require review from the ScaleU team
+
+# Skills
+skills/ @savvides
+
+# Reference data
+data/ @savvides
+
+# Project governance
+CLAUDE.md @savvides
+ETHOS.md @savvides
+ARCHITECTURE.md @savvides
+README.md @savvides

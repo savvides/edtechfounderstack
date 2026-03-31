@@ -1,5 +1,10 @@
 # EdTech Founder Stack
 
+![Version](https://img.shields.io/badge/version-1.2.0-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Skills](https://img.shields.io/badge/skills-10-orange)
+![Research](https://img.shields.io/badge/papers-376-purple)
+
 **10 AI skills. 376 peer-reviewed papers. 15 validated jobs across the student journey.**
 
 Built by [ASU ScaleU](https://scaleu.asu.edu), Arizona State University's edtech accelerator. Presented at [SXSW EDU 2026](https://github.com/savvides/cracking-higher-ed-sxswedu).

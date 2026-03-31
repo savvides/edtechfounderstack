@@ -21,6 +21,23 @@ SKILLS=(
   fundraising-guide
 )
 
+# Help mode
+if [[ "${1:-}" == "--help" ]] || [[ "${1:-}" == "-h" ]]; then
+  echo "EdTech Founder Stack v$(cat "$SCRIPT_DIR/VERSION" 2>/dev/null || echo "unknown")"
+  echo ""
+  echo "Usage: ./setup [OPTIONS]"
+  echo ""
+  echo "Options:"
+  echo "  --help, -h      Show this help message"
+  echo "  --uninstall      Remove all skill symlinks from Claude Code"
+  echo ""
+  echo "Installs 10 edtech founder skills into Claude Code by creating"
+  echo "symlinks in ~/.claude/skills/. Run from the repo directory."
+  echo ""
+  echo "More info: https://github.com/savvides/edtechfounderstack"
+  exit 0
+fi
+
 # Uninstall mode
 if [[ "${1:-}" == "--uninstall" ]]; then
   echo "Uninstalling EdTech Founder Stack..."

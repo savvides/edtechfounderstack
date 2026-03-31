@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.2.0 (2026-03-31)
+
+### Tier-1 repo infrastructure
+
+- GitHub issue templates for bug reports, feature requests, and research submissions
+- Pull request template with contribution checklist
+- CI workflow validating skill frontmatter, routing, data footers, and research format
+- CODE_OF_CONDUCT.md and SECURITY.md for community governance
+- CODEOWNERS routing PRs to ScaleU team
+- README badges (version, license, skills, papers)
+- Setup script --help flag
+- .editorconfig for consistent formatting
+
 ## 1.1.0 (2026-03-31)
 
 ### Smart skill navigation
