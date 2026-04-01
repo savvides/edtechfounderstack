@@ -41,9 +41,25 @@ Options:
 - $500K - $2M ARR
 - Over $2M ARR
 
+### AI Posture Detection
+
+After Question 3, if the pitch content mentions AI, machine learning, LLM, adaptive, or similar, ask via AskUserQuestion:
+
+"How central is AI to your product?"
+
+Options:
+- AI IS the product — the core workflow is impossible without it
+- AI is a significant feature — it enhances the product meaningfully but the product works without it
+- AI is a minor or planned feature — optional, supplementary, or not yet built
+- No AI component
+
+Map: "AI IS the product" = AI-native (adapt Solution/Product scoring and investor targeting). "Significant feature" = Borderline (note for investor Q&A prep). "Minor/planned" or "No AI" = Skip AI-specific pitch guidance.
+
+If AI posture is obvious from the pitch content, skip the question and state the classification.
+
 ## Phase 2: Pitch Assessment
 
-Read `data/funding-landscape.md`, `data/evidence-tiers.md`, and `data/competitive-landscape.md`.
+Read `data/funding-landscape.md`, `data/evidence-tiers.md`, `data/competitive-landscape.md`, and (if AI is involved) `data/ai-native-framework.md`.
 
 Evaluate across six dimensions:
 
@@ -57,6 +73,14 @@ Evaluate across six dimensions:
 - Can the investor understand what it does in 30 seconds?
 - Is the demo/screenshot compelling?
 - Does the AI component (if any) have a clear purpose, or is it "AI for AI's sake"?
+
+**If AI-native:** Evaluate whether the pitch communicates the AI architecture advantage:
+- Does it explain that the product improves automatically as base models improve? (This is the strongest narrative in 2026 edtech investing. The investor is buying into an improving curve, not a static product.)
+- Does it show token economics / unit economics that scale with usage?
+- Does it demonstrate behavior change, not just engagement?
+- Does the demo show the AI doing the core work, or is the AI hidden behind a feature button?
+
+**If bolted-on:** Flag for investor Q&A prep: "Investors will ask: 'What happens when OpenAI/Anthropic ships this as a feature?' Have a clear answer — either your data moat, your domain-specific training, your distribution advantage, or an honest acknowledgment that AI is supplementary."
 
 ### 3. Market Sizing
 - Is the market sized correctly for education?
@@ -124,9 +148,13 @@ For your stage ([pre-seed/seed/A]):
 
 Best-fit investors:
 • [2-3 specific fund names from funding-landscape.md with why they fit]
+• [If AI-native: include AI-focused VCs who understand token economics and model architecture]
+• [If bolted-on: focus on traditional edtech VCs who care about evidence and distribution]
 
 What these investors specifically look for:
 • [Specific criteria for this stage]
+• [If AI-native: model-agnostic design, clear token economics, product that rides the model improvement curve]
+• [If bolted-on: evidence of outcomes, institutional traction, defensible distribution advantage]
 
 Evidence expectations at this stage:
 • [What tier they need and what to say if they're not there yet]
@@ -167,6 +195,7 @@ RECOMMENDED PITCH STRUCTURE (10-12 slides)
 
 3. Solution (2 slides)
    [What the product does — screenshot or demo video, not feature list]
+   [If AI-native: include one slide on AI architecture — show it's load-bearing, model-agnostic, improves with base models. This is your moat slide.]
 
 4. Evidence (1 slide)
    [Current evidence tier, key results, research plan]

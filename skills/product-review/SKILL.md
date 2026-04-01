@@ -51,9 +51,28 @@ Options:
 - Corporate L&D (companies, HR, L&D teams)
 - Direct to consumer (students, parents, learners)
 
+### AI Posture Detection
+
+After Question 4, determine whether the product involves AI. If the founder's product description from Question 1 or intended outcome from Question 3 mentions AI, machine learning, LLM, adaptive, personalized learning engine, or similar, ask via AskUserQuestion:
+
+"How central is AI to your product?"
+
+Options:
+- AI IS the product — the core workflow is impossible without it
+- AI is a significant feature — it enhances the product meaningfully but the product works without it
+- AI is a minor or planned feature — optional, supplementary, or not yet built
+- No AI component
+
+Map the answer:
+- "AI IS the product" = AI-native. Score AI Architecture dimension in Phase 2. Read `data/ai-native-framework.md`.
+- "Significant feature" = Borderline. Apply the removal test from `data/ai-native-framework.md`: "If you removed all the AI, would your product still work?" If yes, it's bolted-on. Score AI Architecture dimension.
+- "Minor/planned" or "No AI" = Skip AI Architecture dimension entirely.
+
+If the founder's description makes AI posture obviously AI-native (e.g., "I built an adaptive AI tutoring engine that generates personalized lessons"), skip the question and state: "Based on what you've described, this is an AI-native product. I'll include AI architecture in the review."
+
 ## Phase 2: Product Assessment
 
-Evaluate the product across five dimensions. Read relevant data files for context:
+Evaluate the product across five dimensions (six if AI is involved). Read relevant data files for context:
 - `data/buyer-personas.md` for buyer requirements
 - `data/evidence-tiers.md` for outcome measurement
 - `data/competitive-landscape.md` for competitive context
@@ -122,6 +141,47 @@ From `data/evidence-tiers.md`:
 - Is the product designed to produce measurable outcome data?
 - Are there built-in assessment or measurement tools?
 
+### Dimension 6: AI Architecture (only if AI posture detection triggered)
+
+"Is the AI load-bearing or decorative?"
+
+Read `data/ai-native-framework.md`. Evaluate the product against the 4 AI-native criteria:
+
+1. **Token/compute spend scales with usage** — Does heavier usage mean more AI computation? Or is AI a fixed feature regardless of usage?
+2. **Improves with base models** — When a better LLM ships, does this product automatically get better? Or is the AI a static integration?
+3. **Core workflow impossible without AI** — Apply the removal test. Remove the AI. Does the product break?
+4. **Creates behavior change** — Do users work differently after trying this? Or do they try the AI once and go back to the old way?
+
+Score on the AI-native criteria (use even numbers to distinguish from the 1-10 scale of other dimensions):
+- **10:** All 4 criteria met. Architecture is model-agnostic. Clear token economics. Memory/personalization across sessions.
+- **8:** 3 of 4 criteria met. Strong AI integration but missing memory, behavior change, or model-agnostic design.
+- **6:** 2 of 4 criteria met. AI is meaningful but not load-bearing. The product is in a borderline zone.
+- **4:** 1 criterion met. AI is a significant feature but the product works without it. Bolted-on with potential.
+- **2:** 0 criteria met but product claims to be "AI-powered." Sparkle icons and a chat pane.
+
+**If score < 6, output an AI ARCHITECTURE WARNING:**
+
+```
+AI ARCHITECTURE WARNING
+━━━━━━━━━━━━━━━━━━━━━━━
+Your product scores [X]/10 on AI architecture.
+
+Missing criteria:
+• [list which of the 4 criteria are not met]
+
+Removal test result: [product works / breaks without AI]
+
+This matters because:
+• Buyers increasingly ask "is this real AI or a chatbot wrapper?"
+• AI-native competitors will improve every 6 months while bolted-on products stay static
+• Pricing and fundraising strategies differ fundamentally based on AI architecture
+
+Remediation:
+• [specific steps from data/ai-native-framework.md to move toward AI-native]
+```
+
+Note: bolted-on is not always wrong. If the product solves a real problem without AI and the AI features genuinely enhance it, say so. The warning is diagnostic, not a judgment. Help the founder understand the implications for their strategy.
+
 ## Phase 3: Review Output
 
 ```
@@ -139,6 +199,7 @@ User Experience           [1-10]   [one-line assessment]
 Buyer Requirements        [1-10]   [one-line assessment]
 Differentiation           [1-10]   [one-line assessment]
 Evidence Readiness         [1-10]   [one-line assessment]
+AI Architecture           [1-10]   [one-line assessment] ← only if AI involved
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Overall                   [avg]
 
@@ -194,6 +255,9 @@ Recommend the single most relevant next step based on the scorecard:
 
 **If Evidence Readiness scored < 7:**
 "You need stronger evidence before institutional buyers will take you seriously. Run `/evidence-check` to assess your evidence tier and build a plan."
+
+**If AI Architecture scored < 5 (and AI is involved):**
+"Your AI architecture needs rethinking before you invest in go-to-market. Your product claims to be AI-powered but the AI isn't load-bearing. Read the remediation steps above. Redesign so AI is essential to the workflow, or own being a non-AI product with AI features — that's a valid position, but your pricing and fundraising strategy need to reflect it."
 
 **If all scores are 7+:**
 "Your product is ready. Now build the sales engine. Run `/go-to-market` to create your edtech GTM strategy."

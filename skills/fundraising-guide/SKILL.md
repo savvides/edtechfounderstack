@@ -70,9 +70,25 @@ Options:
 - Corporate L&D
 - Multiple / cross-sector
 
+### AI Posture Detection
+
+After Question 5, if the founder's product context from prior answers mentions AI, machine learning, LLM, adaptive, or similar, ask via AskUserQuestion:
+
+"How central is AI to your product?"
+
+Options:
+- AI IS the product — the core workflow is impossible without it
+- AI is a significant feature — it enhances the product meaningfully but the product works without it
+- AI is a minor or planned feature — optional, supplementary, or not yet built
+- No AI component
+
+Map: "AI IS the product" = AI-native (adapt investor targeting and evidence expectations). "Significant feature" = Borderline. "Minor/planned" or "No AI" = Skip AI-specific fundraising guidance.
+
+If AI posture is obvious from prior answers, skip the question and state the classification.
+
 ## Phase 2: Funding Landscape Briefing
 
-Read `data/funding-landscape.md` and provide targeted guidance.
+Read `data/funding-landscape.md` and (if AI is involved) `data/ai-native-framework.md`. Provide targeted guidance.
 
 ```
 YOUR FUNDRAISING LANDSCAPE
@@ -105,6 +121,54 @@ WHAT THESE INVESTORS EXPECT AT YOUR STAGE:
 • Traction: [what metrics they want to see]
 • Team: [what they look for]
 • Market: [how they want the market sized]
+```
+
+### AI-Native Investor Dynamics (if AI posture detected)
+
+**If AI-native:**
+
+```
+AI-NATIVE FUNDRAISING DYNAMICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Your investor pool is different. AI-native edtech attracts:
+
+1. AI-focused VCs who understand token economics and model architecture.
+   They care about: model-agnostic design, usage-based unit economics,
+   whether the product improves with base model upgrades, and defensibility
+   beyond a thin API wrapper.
+
+2. Crossover VCs who invest in both AI infrastructure and vertical applications.
+   They want to see: a clear wedge into education, network effects or
+   data flywheel, and why a general-purpose AI tool won't eat your lunch.
+
+Timeline advantage: AI-native products can raise pre-revenue on architecture
+alone. Traditional edtech VCs want traction. AI-focused VCs fund the
+architecture and the team.
+
+Evidence expectations differ:
+• AI-focused investors: model performance metrics, accuracy rates,
+  user behavior data showing the AI creates real change
+• Traditional edtech investors: ESSA-tier evidence, institutional
+  pilot results, outcome data
+
+The "improves with models" narrative:
+Lead with it. "Our product automatically gets better every 6 months
+as base models improve, with zero additional engineering effort."
+This is the single most compelling investor narrative in 2026.
+```
+
+**If bolted-on:**
+
+```
+BOLTED-ON FUNDRAISING REALITY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Focus on traditional edtech VCs who care about evidence and distribution.
+Don't lead with "AI" — lead with outcomes. Your competitive advantage
+is institutional relationships, evidence of effectiveness, and distribution,
+not AI architecture. AI-focused VCs will probe your architecture and
+you'll lose the conversation. Own what you are.
 ```
 
 ## Phase 3: Fundraising Strategy

@@ -21,6 +21,10 @@ When the user's request matches an available skill, invoke it using the Skill to
 
 Skills reference markdown files in `data/` for regulatory, market, and evidence information. Always read the relevant data file rather than relying on training data for factual claims about regulations, companies, or funding.
 
+## AI-native framework
+
+`data/ai-native-framework.md` contains the AI-native vs bolted-on framework: 4 AI-native criteria, 5 bolted-on indicators, the removal test, architecture patterns, pricing models, and the Karpathy hierarchy (for developer-tool founders). Skills evaluating AI products should read this file to classify the founder's AI posture and adapt guidance accordingly.
+
 ## Higher ed framework
 
 `data/higher-ed-jobs-atlas.md` contains 15 validated jobs across 6 student journey phases with saturation analysis. `data/founder-traps.md` contains 4 structural patterns founders miss plus the noise vs. signal filter. Both from ScaleU's SXSW EDU 2026 framework. Skills targeting higher ed founders should reference these files.
