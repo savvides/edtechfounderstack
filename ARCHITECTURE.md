@@ -49,6 +49,7 @@ The `data/` directory contains markdown files with structured domain knowledge:
 - **Market data:** buyer personas, competitive landscape by segment, funding landscape by stage
 - **Frameworks:** ESSA evidence tiers, procurement guides, pilot benchmarks
 - **Higher ed framework:** 15 validated jobs across 6 student journey phases (from SXSW EDU 2026), 4 structural patterns founders miss
+- **AI-native framework:** 4 AI-native criteria, 5 bolted-on indicators, the removal test, Karpathy hierarchy (for developer-tool founders), architecture patterns, and pricing models. All 10 skills read this file to classify a founder's AI posture and adapt guidance accordingly
 
 Skills read these files at runtime using the AI tool's file reading capability. This means the data is always current (edit the markdown, the skill reads the updated version) and auditable (every fact has a source you can check).
 
