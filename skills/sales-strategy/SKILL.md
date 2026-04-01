@@ -54,9 +54,25 @@ Options:
 - Price objections
 - Long sales cycles (it's taking forever)
 
+### AI Posture Detection
+
+After Question 1, if the product description mentions AI, machine learning, LLM, adaptive, or similar, ask via AskUserQuestion:
+
+"How central is AI to your product?"
+
+Options:
+- AI IS the product — the core workflow is impossible without it
+- AI is a significant feature — it enhances the product meaningfully but the product works without it
+- AI is a minor or planned feature — optional, supplementary, or not yet built
+- No AI component
+
+Map: "AI IS the product" = AI-native (adapt objection handling and demo guidance). "Significant feature" = Borderline (note for buyer perception section). "Minor/planned" or "No AI" = Skip AI-specific sales guidance.
+
+If AI posture is obvious from the product description, skip the question and state the classification.
+
 ## Phase 2: Buyer-Specific Sales Playbook
 
-Read `data/buyer-personas.md` and `data/procurement-guide.md`.
+Read `data/buyer-personas.md` and `data/procurement-guide.md`. If AI is involved, also read `data/ai-native-framework.md`.
 
 Based on their answers, provide a sales playbook tailored to their specific buyer.
 
@@ -255,6 +271,69 @@ You can't eliminate the cycle, but you can stop restarting it:
 4. Do the work for them
    Fill out their forms. Draft the justification memo. Write the board
    presentation slide. Make it easy for your champion to sell internally.
+```
+
+### AI-Specific Sales Dynamics (if AI posture detected)
+
+**If AI-native:**
+
+```
+AI-NATIVE SALES DYNAMICS
+━━━━━━━━━━━━━━━━━━━━━━━━
+
+Objections you'll hear (and how to handle them):
+
+"What if the AI is wrong?"
+→ Don't dodge this. Say: "It will be sometimes. Here's how we handle it:
+  [explain your guardrails, human-in-the-loop, confidence thresholds].
+  The question isn't 'is it perfect?' — it's 'is it better than the
+  alternative?'"
+
+"How do you handle hallucinations?"
+→ Be specific about your approach: content filtering, source grounding,
+  domain-specific fine-tuning, or human review layers. Vague answers
+  kill trust.
+
+"What about student data going to AI models?"
+→ Know your model provider's data policy cold. Can you say "no student
+  data trains the model"? If yes, lead with it. If not, explain your
+  data handling clearly.
+
+"What happens when OpenAI/Anthropic ships this as a feature?"
+→ This is the bolted-on question. If you're genuinely AI-native:
+  "Our AI is purpose-built for [specific educational workflow]. A
+  general-purpose model can't do this without the domain-specific
+  [training/data/workflow] we've built."
+
+Demo flow for AI-native products:
+• Don't give a feature tour. Show the AI doing the core work.
+• Live demo > recorded video. Let the buyer see it work in real time.
+• Show the product handling edge cases (not just the happy path).
+• Show memory/personalization: "This student used it last week and
+  here's how it adapted."
+
+Procurement narrative:
+• Outcome-based pricing aligns with institutional ROI conversations
+• "You're paying for results, not seats" resonates with budget-conscious
+  buyers
+```
+
+**If bolted-on:**
+
+```
+AI PERCEPTION MANAGEMENT
+━━━━━━━━━━━━━━━━━━━━━━━
+
+Buyers are getting sophisticated about detecting decorative AI.
+
+If a buyer asks "Is this real AI or a chatbot wrapper?"
+→ Be honest. If your AI enhances specific workflows, describe exactly
+  which ones and what they do without the AI. Honesty builds trust.
+  "AI improves our [specific feature] by [specific amount]. The core
+  product works without it, but the AI makes [specific workflow]
+  significantly better."
+
+Don't over-sell the AI. Sell the product.
 ```
 
 ## Phase 3: Sales Action Plan

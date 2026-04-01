@@ -62,6 +62,22 @@ Options:
 - We have a dedicated sales team
 - Nobody — we don't do outbound
 
+### AI Posture Detection
+
+After Question 5, if the founder's product description from Question 1 mentions AI, machine learning, LLM, adaptive, or similar, ask via AskUserQuestion:
+
+"How central is AI to your product?"
+
+Options:
+- AI IS the product — the core workflow is impossible without it
+- AI is a significant feature — it enhances the product meaningfully but the product works without it
+- AI is a minor or planned feature — optional, supplementary, or not yet built
+- No AI component
+
+Map: "AI IS the product" = AI-native (adapt pricing and positioning in Phases 2-3). "Significant feature" = Borderline (note for pricing section). "Minor/planned" or "No AI" = Skip AI-specific GTM guidance.
+
+If AI posture is obvious from the product description, skip the question and state the classification.
+
 ## Phase 2: Segment Strategy
 
 Read `data/buyer-personas.md`, `data/procurement-guide.md`, and `data/competitive-landscape.md`.
@@ -172,6 +188,42 @@ Procurement-friendly tactics:
 - Per-student pricing needs to account for the difference between enrolled students and active users
 - Multi-year deals are preferred by institutions (budget predictability) and better for your cash flow
 - Freemium works for teacher adoption but the conversion path to institutional purchase must be clear
+
+### AI-Native Pricing (if AI posture = AI-native or borderline)
+
+Read `data/ai-native-framework.md` for the full pricing framework.
+
+**If AI-native:** Your product has variable COGS. A power user running AI tutoring for 200 students consumes far more compute than a light user. This breaks per-seat pricing at scale. Guide the founder:
+
+```
+AI-NATIVE PRICING STRATEGY
+━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Your AI is load-bearing. Your pricing should reflect that.
+
+Structural advantage: Usage-based or outcome-based pricing
+• Per-token, per-session, per-assessment, per-learner-hour
+• Aligns COGS with revenue — heavy users pay proportionally
+• Tells the investor story: "revenue scales with value delivered"
+
+But: match pricing to what the buyer can purchase.
+• Districts and universities: per-seat or site-license + usage tier
+  (procurement systems need a predictable line item)
+• Direct-to-consumer: pure usage-based or outcome-based
+• Enterprise: hybrid (base subscription + usage tier)
+
+Key metric: unit economics at 10x scale
+• What does it cost to serve one student for one semester?
+• Does that number go down with scale (good) or up (dangerous)?
+• What's the margin at your target price point?
+
+Model improvement positioning:
+• Your product gets better every 6 months as base models improve
+• This is your GTM narrative: "you're buying into an improving curve"
+• Competitors with static products can't match this
+```
+
+**If bolted-on AI:** Note for the founder: "Your AI features add value but your COGS structure is closer to traditional SaaS. Per-seat pricing is fine for your model. Focus on feature differentiation rather than AI architecture as your competitive positioning."
 
 ## Phase 4: Calendar and Timing
 
