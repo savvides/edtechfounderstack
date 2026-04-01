@@ -1,5 +1,25 @@
 # Changelog
 
+## 1.3.0 (2026-04-01)
+
+### AI-native framework integration
+
+Every skill is now AI-native aware. When a founder's product involves AI, skills detect whether the AI is load-bearing (AI-native) or decorative (bolted-on) and adapt guidance accordingly.
+
+- New `data/ai-native-framework.md` reference file: 4 AI-native criteria, 5 bolted-on indicators, the removal test, Karpathy hierarchy (for developer-tool founders), architecture patterns, and AI-native pricing models
+- `/product-review` adds a 6th scoring dimension (AI Architecture) for products with AI components
+- `/idea-validation` evaluates AI Architecture Fit as a validation signal
+- `/go-to-market` provides AI-native pricing strategy (usage-based economics, institutional procurement guidance)
+- `/pitch-review` coaches the "improves with models" investor narrative and adapts investor targeting
+- `/sales-strategy` adds AI-native objection handling ("what if the AI is wrong?") and demo flow guidance
+- `/fundraising-guide` targets AI-focused VCs for AI-native products and traditional edtech VCs for bolted-on
+- `/edtech-landscape` maps AI-native vs bolted-on competitors in competitive analysis
+- `/evidence-check` adds behavior change as an evidence dimension for AI-native products
+- `/accessibility-check` flags AI-specific concerns (bias, transparency, explainability, override capability)
+- `/pilot-design` adds AI-specific pilot metrics (accuracy, hallucination rate, trust calibration, behavior change)
+
+The framework is diagnostic, not prescriptive. Bolted-on AI can be a valid strategy. The skills help founders understand the implications for their pricing, sales, fundraising, and competitive positioning.
+
 ## 1.2.0 (2026-03-31)
 
 ### Tier-1 repo infrastructure

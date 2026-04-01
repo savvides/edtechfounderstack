@@ -1,6 +1,6 @@
 # EdTech Founder Stack
 
-![Version](https://img.shields.io/badge/version-1.2.0-blue)
+![Version](https://img.shields.io/badge/version-1.3.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Skills](https://img.shields.io/badge/skills-10-orange)
 ![Research](https://img.shields.io/badge/papers-376-purple)
