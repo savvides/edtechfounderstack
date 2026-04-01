@@ -142,7 +142,13 @@ Output:
 - Common failure modes for startups in this segment
 - Where the gaps and opportunities are
 
-**If their product uses AI:** Call out the AI-specific competitive landscape for their sector. The AI landscape is moving fast — note that competitive positions may shift quickly and they should verify current status.
+**If their product uses AI (Question 5: "central" or "enhances"):** Read `data/ai-native-framework.md`. Call out the AI-specific competitive landscape for their sector. The AI landscape is moving fast — note that competitive positions may shift quickly and they should verify current status.
+
+Classify their AI posture based on Question 5:
+- "AI is central" = AI-native. Note: "Most edtech AI products are bolted-on. Being genuinely AI-native is a differentiator — your product improves automatically as base models improve, which most competitors can't match."
+- "AI enhances some features" = Borderline/bolted-on. Flag: "Your AI enhances but isn't essential. Competitors building AI-native in your space will improve faster. Consider whether your AI can become load-bearing, or compete on distribution and evidence instead. Run `/product-review` for a detailed AI architecture assessment."
+
+Map AI-native vs bolted-on competitors in their specific segment when providing the 3-5 key competitors list.
 
 ## Phase 5: Situational Brief
 

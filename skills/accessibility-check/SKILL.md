@@ -60,6 +60,16 @@ Options (multiSelect: true):
 - User-generated content
 - AI-generated content
 
+### AI-Specific Accessibility (if "AI-generated content" selected in Question 4)
+
+If the founder selected "AI-generated content" in Question 4, OR if the product description from earlier questions mentions AI, machine learning, LLM, adaptive, or similar, read `data/ai-native-framework.md` and add these AI-specific accessibility concerns to the Phase 2 assessment:
+
+- **Algorithmic bias:** Does the AI perform equally across demographics? An AI tutoring system that works better for native English speakers than English language learners has an accessibility problem. Test AI output across diverse learner populations.
+- **Transparency:** Can users understand why the AI made a recommendation? If a student gets a learning path and has no idea why, that's a transparency gap.
+- **Explainability:** Can the system explain its reasoning in plain language? Educators need to validate AI recommendations before acting on them.
+- **Override capability:** Can users override AI recommendations? AI that makes decisions without human review creates an accessibility barrier for users whose needs fall outside the model's training data.
+- **Data consent:** Do users understand what data feeds the AI? Informed consent is both an accessibility and privacy requirement.
+
 ## Phase 2: Requirements Assessment
 
 Based on their sector, explain the specific requirements that apply:

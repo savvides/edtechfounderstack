@@ -69,6 +69,22 @@ Options:
 - Full academic year
 - No specific constraint
 
+### AI Posture Detection
+
+After Question 1, if the product description mentions AI, machine learning, LLM, adaptive, or similar, ask via AskUserQuestion:
+
+"How central is AI to your product?"
+
+Options:
+- AI IS the product — the core workflow is impossible without it
+- AI is a significant feature — it enhances the product meaningfully but the product works without it
+- AI is a minor or planned feature — optional, supplementary, or not yet built
+- No AI component
+
+If AI-native or borderline: read `data/ai-native-framework.md` and add AI-specific pilot metrics to Phase 2.
+
+If AI posture is obvious from context, skip the question and state the classification.
+
 ## Phase 2: Pilot Design
 
 Read `data/pilot-benchmarks.md` for reference benchmarks.
@@ -156,6 +172,40 @@ PARTICIPANT SELECTION
 
 RISK MITIGATION
 • [Top 3 risks and how to address them]
+```
+
+### AI-Specific Pilot Metrics (if AI posture detected)
+
+**If AI-native or borderline:** Add these AI-specific metrics to the pilot design:
+
+```
+AI-SPECIFIC PILOT METRICS
+━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Model accuracy / quality:
+• Track AI output quality over the pilot period
+• Measure hallucination rate (incorrect or fabricated information)
+• Compare AI recommendations against expert judgment on a sample
+
+User trust calibration:
+• Do users appropriately trust the AI? (not over-trusting, not dismissing)
+• Measure how often users accept, modify, or reject AI recommendations
+• Track whether trust changes over time (should increase as users learn)
+
+Behavior change:
+• Document workflows before AI (week 0) and after AI (week 4+)
+• Measure whether users revert to old methods when AI is unavailable
+• Track adoption persistence after novelty wears off (week 4+)
+
+AI-specific failure modes to monitor:
+• Bias in AI output across student demographics
+• Performance degradation under load or unusual inputs
+• Edge cases where AI produces harmful or inappropriate content
+• User confusion when AI makes incorrect recommendations
+
+If resources allow, consider:
+• AI-assisted vs. non-AI-assisted comparison cohort
+• Measure whether the AI-specific metrics correlate with learning outcomes
 ```
 
 ### Evidence Strategy

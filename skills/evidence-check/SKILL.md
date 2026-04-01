@@ -64,6 +64,22 @@ Options:
 - No, but we're open to it
 - No, and we want to do this ourselves
 
+### AI Posture Detection
+
+After Question 2, if the founder's product context mentions AI, machine learning, LLM, adaptive, or similar, ask via AskUserQuestion:
+
+"How central is AI to your product?"
+
+Options:
+- AI IS the product — the core workflow is impossible without it
+- AI is a significant feature — it enhances the product meaningfully but the product works without it
+- AI is a minor or planned feature — optional, supplementary, or not yet built
+- No AI component
+
+If AI-native or borderline: read `data/ai-native-framework.md` and add "behavior change" as an evidence dimension in Phase 2. AI-native products need to demonstrate they create behavior change (users work fundamentally differently), not just engagement or satisfaction.
+
+If AI posture is obvious from context, skip the question and state the classification.
+
 ## Phase 2: Evidence Classification
 
 Read `data/evidence-tiers.md` for the full ESSA framework.
@@ -101,6 +117,20 @@ Without a comparison group or statistical controls, improvement could be from ma
 
 **"We compared our schools to other schools and our schools did better" → Depends**
 If you controlled for prior achievement, demographics, and other differences statistically, this could be Tier 3. If you just compared raw scores without controls, the groups might have been different to begin with. That's Tier 4.
+
+### AI-Native Evidence Dimension (if AI posture detected)
+
+**If AI-native or borderline:**
+
+Beyond standard ESSA tier evidence, AI-native products need to demonstrate **behavior change**. This is the 4th AI-native criterion: users work fundamentally differently after trying the product.
+
+How to measure behavior change:
+- **Before/after workflow analysis:** Document how users performed the task before the product, then after 4-8 weeks of usage. Are they working differently, or just slightly faster at the same workflow?
+- **Usage persistence:** Do users continue using the AI-powered workflow after the novelty wears off (week 4+)? If usage drops after week 1, the AI isn't creating behavior change.
+- **Reversion rate:** When the product is temporarily unavailable, do users revert to old methods or wait for it to come back? Waiting = behavior change. Reverting = nice-to-have.
+- **Qualitative indicators:** Users describing their work as "before [product]" and "after [product]." Unprompted advocacy. Expanding usage to new contexts.
+
+Flag: "Engagement metrics (time on task, session counts) are necessary but not sufficient for AI-native evidence. A chatbot can have high engagement without creating any behavior change. Focus on whether users' workflows actually changed."
 
 ## Phase 3: Gap Analysis
 
