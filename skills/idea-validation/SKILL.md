@@ -74,11 +74,30 @@ Options:
 - I've talked to people but not about paying
 - I haven't talked to potential users yet
 
+### AI Posture Detection
+
+After Question 5, if the founder's idea description from Question 1 mentions AI, machine learning, LLM, adaptive, intelligent, or similar, ask via AskUserQuestion:
+
+"How central is AI to your idea?"
+
+Options:
+- AI IS the product — the core workflow would be impossible without it
+- AI is a significant feature — it enhances the product meaningfully but the product works without it
+- AI is a minor or planned feature — optional, supplementary, or not yet built
+- No AI component
+
+Map the answer:
+- "AI IS the product" = AI-native. Evaluate AI Architecture Fit in Phase 2. Read `data/ai-native-framework.md`.
+- "Significant feature" = Borderline. Apply the removal test: "If you removed all the AI, would your idea still work?" Evaluate in Phase 2.
+- "Minor/planned" or "No AI" = Skip AI Architecture Fit in Phase 2.
+
+If the founder's idea description makes AI posture obviously AI-native (e.g., "an AI engine that generates personalized curricula in real time"), skip the question and state: "Based on what you've described, this is an AI-native idea. I'll evaluate AI architecture fit."
+
 ## Phase 2: Validation Assessment
 
 Read `data/competitive-landscape.md`, `data/buyer-personas.md`, and `data/procurement-guide.md`.
 
-Evaluate the idea on five dimensions:
+Evaluate the idea on five dimensions (six if AI is involved):
 
 ### 1. Problem Reality
 
@@ -130,6 +149,23 @@ Why now? What's changed that makes this possible or necessary?
 - Demographic shifts
 - Budget changes (new funding, ESSER winddown)
 
+### 6. AI Architecture Fit (only if AI posture detection triggered)
+
+Read `data/ai-native-framework.md`. Evaluate:
+
+- **Removal test:** Remove the AI from this idea. Does it still solve the problem? If yes, the AI is supplementary, not essential.
+- **Model improvement trajectory:** Will this idea get better as base models improve? Or is the AI a static feature that won't evolve?
+- **Behavior change potential:** Would users of this product work fundamentally differently, or just slightly faster?
+- **Higher ed cross-reference:** If the founder targets higher ed, check `data/higher-ed-jobs-atlas.md`. Some jobs are naturally AI-native (adaptive tutoring, intelligent scheduling, personalized content generation). Others don't need AI (financial aid navigation, transfer credit mapping). Flag if the founder is forcing AI into a job that doesn't need it.
+
+**Verdict adjustment for AI architecture:**
+
+- If the idea scores well on Problem Reality but AI is bolted-on: "Your problem is real. But your solution doesn't need AI to solve it. That's not necessarily bad — a non-AI product that solves a real problem beats an AI product that solves a fake one. But if you're positioning as 'AI-powered,' know that buyers and investors will probe whether the AI is real. Consider either building without AI (simpler, faster) or redesigning so AI is genuinely load-bearing."
+
+- If the idea is AI-native and maps to a validated job: Strong signal. "Your idea is AI-native and maps to [job] at the [phase] phase. This is a strong position — the AI is essential, the job is validated, and AI-native products improve automatically as models get better."
+
+- If the idea is AI-native but the job doesn't need AI: Flag it. "You're building AI-native, but the job you're solving ([job]) doesn't inherently require AI. The risk: you're over-engineering a problem that has simpler solutions. Consider whether AI is genuinely the best approach or if you're building AI because it's exciting."
+
 ## Phase 3: Validation Verdict
 
 ```
@@ -147,6 +183,7 @@ Market Viability          [1-10]   [verdict]
 Competitive Position      [1-10]   [verdict]
 Founder-Market Fit        [1-10]   [verdict]
 Timing                    [1-10]   [verdict]
+AI Architecture Fit       [1-10]   [verdict] ← only if AI involved
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Overall                   [avg]
 
