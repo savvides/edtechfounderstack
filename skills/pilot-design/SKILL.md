@@ -81,6 +81,8 @@ Options:
 - AI is a minor or planned feature — optional, supplementary, or not yet built
 - No AI component
 
+Map: "AI IS the product" = AI-native. "Significant feature" = Borderline. "Minor/planned" or "No AI" = Skip AI-specific pilot metrics.
+
 If AI-native or borderline: read `data/ai-native-framework.md` and add AI-specific pilot metrics to Phase 2.
 
 If AI posture is obvious from context, skip the question and state the classification.

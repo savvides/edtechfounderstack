@@ -151,12 +151,16 @@ Why now? What's changed that makes this possible or necessary?
 
 ### 6. AI Architecture Fit (only if AI posture detection triggered)
 
-Read `data/ai-native-framework.md`. Evaluate:
+Read `data/ai-native-framework.md`. Evaluate the idea against the 4 AI-native criteria (Token scaling, Model improvement, Removal test, Behavior change).
 
-- **Removal test:** Remove the AI from this idea. Does it still solve the problem? If yes, the AI is supplementary, not essential.
-- **Model improvement trajectory:** Will this idea get better as base models improve? Or is the AI a static feature that won't evolve?
-- **Behavior change potential:** Would users of this product work fundamentally differently, or just slightly faster?
-- **Higher ed cross-reference:** If the founder targets higher ed, check `data/higher-ed-jobs-atlas.md`. Some jobs are naturally AI-native (adaptive tutoring, intelligent scheduling, personalized content generation). Others don't need AI (financial aid navigation, transfer credit mapping). Flag if the founder is forcing AI into a job that doesn't need it.
+Score on the AI-native criteria (use even numbers to distinguish from the 1-10 scale of other dimensions):
+- **10:** All 4 criteria met. Architecture is model-agnostic. Clear token economics. Memory/personalization across sessions.
+- **8:** 3 of 4 criteria met. Strong AI integration but missing memory, behavior change, or model-agnostic design.
+- **6:** 2 of 4 criteria met. AI is meaningful but not load-bearing. The product is in a borderline zone.
+- **4:** 1 criterion met. AI is a significant feature but the product works without it. Bolted-on with potential.
+- **2:** 0 criteria met but product claims to be "AI-powered." Sparkle icons and a chat pane.
+
+**Higher ed cross-reference:** If the founder targets higher ed, check `data/higher-ed-jobs-atlas.md`. Some jobs are naturally AI-native (adaptive tutoring, intelligent scheduling, personalized content generation). Others don't need AI (financial aid navigation, transfer credit mapping). Flag if the founder is forcing AI into a job that doesn't need it.
 
 **Verdict adjustment for AI architecture:**
 

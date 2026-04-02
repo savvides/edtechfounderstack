@@ -76,6 +76,8 @@ Options:
 - AI is a minor or planned feature — optional, supplementary, or not yet built
 - No AI component
 
+Map: "AI IS the product" = AI-native. "Significant feature" = Borderline. "Minor/planned" or "No AI" = Skip AI-specific evidence guidance.
+
 If AI-native or borderline: read `data/ai-native-framework.md` and add "behavior change" as an evidence dimension in Phase 2. AI-native products need to demonstrate they create behavior change (users work fundamentally differently), not just engagement or satisfaction.
 
 If AI posture is obvious from context, skip the question and state the classification.

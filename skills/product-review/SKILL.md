@@ -256,7 +256,7 @@ Recommend the single most relevant next step based on the scorecard:
 **If Evidence Readiness scored < 7:**
 "You need stronger evidence before institutional buyers will take you seriously. Run `/evidence-check` to assess your evidence tier and build a plan."
 
-**If AI Architecture scored < 5 (and AI is involved):**
+**If AI Architecture scored < 6 (and AI is involved):**
 "Your AI architecture needs rethinking before you invest in go-to-market. Your product claims to be AI-powered but the AI isn't load-bearing. Read the remediation steps above. Redesign so AI is essential to the workflow, or own being a non-AI product with AI features — that's a valid position, but your pricing and fundraising strategy need to reflect it."
 
 **If all scores are 7+:**
