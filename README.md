@@ -11,6 +11,12 @@ Built by [ASU ScaleU](https://scaleu.asu.edu), Arizona State University's edtech
 
 EdTech Founder Stack gives you executable expertise, not another list of links. Run a skill in your terminal and get opinionated, research-backed guidance at the exact moment you're making decisions. Every recommendation is grounded in ScaleU's experience running pilots at one of the largest universities in the US.
 
+## Who this is for
+
+You're building an edtech product. You need to know: Is my idea viable? Will districts actually buy this? What evidence do investors want? How do I price for higher ed procurement? Is my AI architecture real or decorative?
+
+Run a skill in your terminal. Get opinionated, research-backed answers in 5 minutes instead of 5 weeks of Googling.
+
 ## The founder journey
 
 Skills map to the stages every edtech founder goes through. Start anywhere. Each skill recommends what to run next.
