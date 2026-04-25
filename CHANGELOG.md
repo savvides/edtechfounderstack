@@ -1,5 +1,15 @@
 # Changelog
 
+## 1.4.0 (2026-04-25)
+
+### Public launch readiness
+
+- **New `/edtechfounderstack` welcome skill** — first-run orientation that asks one question and routes founders to the right starting skill. Lives in `skills/welcome/` (frontmatter `name: edtechfounderstack`). Setup script now hands new users off to it directly.
+- **Count-agnostic documentation** — removed hard-coded skill, paper, and job counts from README, ARCHITECTURE.md, CLAUDE.md, CONTRIBUTING.md, ETHOS.md, and TODOS.md so docs don't drift as the corpus grows. CHANGELOG.md keeps historical counts where they were accurate at the time of release.
+- **README polish** — dropped the brittle `skills-N` and `papers-N` badges. New tagline: "Executable expertise for edtech founders — grounded in peer-reviewed learning science and ScaleU's higher ed jobs framework."
+- **LICENSE typo fix** — copyright now reads "ASU ScaleU" (was "ASU ScaleUp").
+- **Hygiene** — `.claude/settings.local.json` added to `.gitignore` so contributors don't accidentally commit their local Claude Code settings.
+
 ## 1.3.0 (2026-04-01)
 
 ### AI-native framework integration

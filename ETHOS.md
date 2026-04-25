@@ -20,7 +20,7 @@ When you hear a problem, ask: what happened one phase earlier that made this ine
 
 Most edtech founders overestimate their evidence tier. A teacher saying "my students loved it" is not evidence. Usage data showing high engagement is not evidence of learning outcomes. Positive pre/post scores without a comparison group are not Tier 3.
 
-Know where you stand on the ESSA evidence ladder (Tier 1-4). Know what tier your buyer requires. Have a concrete plan to close the gap. Investors and institutional buyers increasingly demand real outcome data, not testimonials. The skills in this repo cite 376 peer-reviewed papers because evidence is the language that institutions trust.
+Know where you stand on the ESSA evidence ladder (Tier 1-4). Know what tier your buyer requires. Have a concrete plan to close the gap. Investors and institutional buyers increasingly demand real outcome data, not testimonials. The skills in this repo cite peer-reviewed research because evidence is the language that institutions trust.
 
 ## 4. The buyer is not the user
 

@@ -48,8 +48,8 @@ The `data/` directory contains markdown files with structured domain knowledge:
 - **Regulatory guides:** FERPA, COPPA, state privacy laws (K-12), accreditation and accessibility (higher ed), SOC 2 and SCORM (corporate L&D)
 - **Market data:** buyer personas, competitive landscape by segment, funding landscape by stage
 - **Frameworks:** ESSA evidence tiers, procurement guides, pilot benchmarks
-- **Higher ed framework:** 15 validated jobs across 6 student journey phases (from SXSW EDU 2026), 4 structural patterns founders miss
-- **AI-native framework:** 4 AI-native criteria, 5 bolted-on indicators, the removal test, Karpathy hierarchy (for developer-tool founders), architecture patterns, and pricing models. All 10 skills read this file to classify a founder's AI posture and adapt guidance accordingly
+- **Higher ed framework:** Validated jobs across student journey phases (from SXSW EDU 2026) and the structural patterns founders miss
+- **AI-native framework:** 4 AI-native criteria, 5 bolted-on indicators, the removal test, Karpathy hierarchy (for developer-tool founders), architecture patterns, and pricing models. Every skill reads this file to classify a founder's AI posture and adapt guidance accordingly
 
 Skills read these files at runtime using the AI tool's file reading capability. This means the data is always current (edit the markdown, the skill reads the updated version) and auditable (every fact has a source you can check).
 
@@ -57,7 +57,7 @@ Skills read these files at runtime using the AI tool's file reading capability. 
 
 ## Research Corpus
 
-`data/research/` contains 376 peer-reviewed papers across 19 learning science topics. Each paper is stored in a structured markdown table with: Title, Takeaway, Study Type, Year, Citations, DOI.
+`data/research/` contains peer-reviewed papers organized by learning science topic. Each paper is stored in a structured markdown table with: Title, Takeaway, Study Type, Year, Citations, DOI. The current count and full topic index live in `data/research/README.md`.
 
 Topics include: active learning, adaptive learning, spaced repetition, cognitive load theory, formative assessment, multimedia principles, mastery-based grading, gamification, worked examples, and more.
 
@@ -69,7 +69,7 @@ Skills cite specific papers when making claims about learning science. For examp
 
 Two files encode ScaleU's SXSW EDU 2026 framework for higher education:
 
-- **`data/higher-ed-jobs-atlas.md`** — 15 validated jobs organized by 6 student journey phases (Pre-enroll, Apply, Onboard, Select & Enroll, Course Experience, Graduate & Beyond). Each job names the person, the struggling moment, what they've already tried, and why it fails. Includes saturation analysis showing that 80% of founders build in the most crowded phase.
+- **`data/higher-ed-jobs-atlas.md`** — Validated jobs organized by student journey phase (Pre-enroll, Apply, Onboard, Select & Enroll, Course Experience, Graduate & Beyond). Each job names the person, the struggling moment, what they've already tried, and why it fails. Includes saturation analysis showing most founders build in the most crowded phase.
 
 - **`data/founder-traps.md`** — 4 structural patterns that are invisible from surface-level discovery: the information sequencing trap, the upstream cause / downstream symptom split, when qualitative and quantitative evidence disagree, and the same-problem-two-jobs dynamic. Also includes the noise vs. signal filter for evaluating pilot results.
 

@@ -1,11 +1,9 @@
 # EdTech Founder Stack
 
-![Version](https://img.shields.io/badge/version-1.3.0-blue)
+![Version](https://img.shields.io/badge/version-1.4.0-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
-![Skills](https://img.shields.io/badge/skills-10-orange)
-![Research](https://img.shields.io/badge/papers-376-purple)
 
-**10 AI skills. 376 peer-reviewed papers. 15 validated jobs across the student journey.**
+**Executable expertise for edtech founders — grounded in peer-reviewed learning science and ScaleU's higher ed jobs framework.**
 
 Built by [ASU ScaleU](https://scaleu.asu.edu), Arizona State University's edtech accelerator. Presented at [SXSW EDU 2026](https://github.com/savvides/cracking-higher-ed-sxswedu).
 
@@ -40,7 +38,7 @@ git clone https://github.com/savvides/edtechfounderstack.git ~/.claude/skills/ed
 cd ~/.claude/skills/edtechfounderstack && ./setup
 ```
 
-That's it. All 10 skills are available as slash commands.
+Then open Claude Code and run `/edtechfounderstack` — it asks one question and routes you to the right first skill. All skills are available as slash commands.
 
 ### Codex CLI
 
@@ -94,19 +92,19 @@ Interactive features (branching questions based on your answers) work best in Cl
 
 ## What powers the skills
 
-### Reference data (11 files)
+### Reference data
 
 Skills read from `data/` for factual claims, not from the AI's training data. This means guidance is grounded in real regulations, real market data, and real procurement processes.
 
 Covers: K-12 regulatory (FERPA, COPPA), higher ed landscape (accreditation, LMS integration), corporate L&D, ESSA evidence tiers, procurement guides, pilot benchmarks, buyer personas, funding landscape, competitive landscape, higher ed jobs atlas, and founder traps.
 
-### Research corpus (376 papers)
+### Research corpus
 
-19 topics across learning science in `data/research/`. When a skill recommends an approach, it cites specific studies with author, year, finding, and DOI. Topics include active learning, adaptive learning, spaced repetition, cognitive load theory, formative assessment, multimedia principles, and more.
+Peer-reviewed learning science in `data/research/`, organized by topic. When a skill recommends an approach, it cites specific studies with author, year, finding, and DOI. Topics include active learning, adaptive learning, spaced repetition, cognitive load theory, formative assessment, multimedia principles, and more.
 
 ### Higher ed framework (SXSW EDU 2026)
 
-15 validated jobs across 6 student journey phases. 4 structural patterns founders miss. The noise vs. signal filter. From "Cracking Higher Ed: Why Startups Miss the Mark," presented at SXSW EDU 2026.
+Validated jobs across the student journey. The structural patterns founders miss. The noise vs. signal filter. From "Cracking Higher Ed: Why Startups Miss the Mark," presented at SXSW EDU 2026.
 
 ## About ASU ScaleU
 

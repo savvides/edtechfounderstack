@@ -9,6 +9,7 @@ SKILLS_DIR="$HOME/.claude/skills"
 REPO_LINK="$SKILLS_DIR/edtechfounderstack"
 
 SKILLS=(
+  welcome
   edtech-landscape
   idea-validation
   product-review
@@ -31,8 +32,8 @@ if [[ "${1:-}" == "--help" ]] || [[ "${1:-}" == "-h" ]]; then
   echo "  --help, -h      Show this help message"
   echo "  --uninstall      Remove all skill symlinks from Claude Code"
   echo ""
-  echo "Installs 10 edtech founder skills into Claude Code by creating"
-  echo "symlinks in ~/.claude/skills/. Run from the repo directory."
+  echo "Installs the EdTech Founder Stack skills into Claude Code by"
+  echo "creating symlinks in ~/.claude/skills/. Run from the repo directory."
   echo ""
   echo "More info: https://github.com/savvides/edtechfounderstack"
   exit 0
@@ -99,6 +100,11 @@ echo ""
 echo "EdTech Founder Stack v$(cat "$SCRIPT_DIR/VERSION" 2>/dev/null || echo "unknown") installed."
 echo ""
 echo "  $installed skills installed, $skipped already existed"
+echo ""
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+echo "  START HERE → open Claude Code and run: /edtechfounderstack"
+echo "  (Asks one question, routes you to the right first skill.)"
+echo "━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
 echo ""
 echo "Available skills:"
 echo ""

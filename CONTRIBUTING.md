@@ -17,7 +17,7 @@ description: One-line description of what this skill does.
 Instructions for the AI...
 ```
 
-Skills read from reference data in `data/` for regulatory, market, and evidence information, and cite studies from `data/research/` (376 peer-reviewed papers) when making claims about learning science. This keeps domain knowledge editable without touching skill logic.
+Skills read from reference data in `data/` for regulatory, market, and evidence information, and cite studies from `data/research/` when making claims about learning science. This keeps domain knowledge editable without touching skill logic.
 
 ## What we're looking for
 
