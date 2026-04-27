@@ -7,13 +7,13 @@
 
 Built by [ASU ScaleU](https://scaleu.asu.edu), Arizona State University's edtech accelerator. Presented at [SXSW EDU 2026](https://github.com/savvides/cracking-higher-ed-sxswedu).
 
-EdTech Founder Stack gives you executable expertise, not another list of links. Run a skill in your terminal and get opinionated, research-backed guidance at the exact moment you're making decisions. Every recommendation is grounded in ScaleU's experience running pilots at one of the largest universities in the US.
+EdTech Founder Stack isn't just another list of resource links. It's executable expertise that lives in your terminal. Run a skill and get the kind of opinionated, research-backed guidance we usually only give to our portfolio companies—right when you're actually making decisions. 
 
 ## Who this is for
 
-You're building an edtech product. You need to know: Is my idea viable? Will districts actually buy this? What evidence do investors want? How do I price for higher ed procurement? Is my AI architecture real or decorative?
+You're building an edtech product and the stakes are high. You need to know: Is my idea actually viable? Will districts buy this, or just say it's "interesting"? What evidence do investors *really* care about? How do I navigate higher ed procurement without losing six months? Is my AI architecture a load-bearing wall or just decorative wallpaper?
 
-Run a skill in your terminal. Get opinionated, research-backed answers in 5 minutes instead of 5 weeks of Googling.
+Stop guessing and skip the weeks of Googling. Run a skill and get answers in five minutes.
 
 ## The founder journey
 
@@ -38,7 +38,7 @@ git clone https://github.com/savvides/edtechfounderstack.git ~/.claude/skills/ed
 cd ~/.claude/skills/edtechfounderstack && ./setup
 ```
 
-Then open Claude Code and run `/edtechfounderstack` — it asks one question and routes you to the right first skill. All skills are available as slash commands.
+Then open Claude Code and run `/edtechfounderstack` — it'll ask one question to figure out where you are and route you to the right first skill. All skills are available as slash commands.
 
 ### Codex CLI
 
@@ -56,65 +56,63 @@ Clone the repo. Add skill paths to your Gemini configuration or reference SKILL.
 
 Clone the repo. Copy the contents of any SKILL.md into Cursor's custom instructions for that workspace.
 
-Interactive features (branching questions based on your answers) work best in Claude Code. Other tools can execute the skills as prompts but the interactive flow may vary.
+Interactive features (branching questions based on your answers) work best in Claude Code. Other tools can execute the skills as prompts, but the interactive flow may vary.
 
 ## Skills
 
 ### Discovery & Validation
 
-**`/edtech-landscape`** — Map your market segment, buyer persona, regulatory landscape, and competitive context. This is the entry point. Run it first.
+**`/edtech-landscape`** — Stop building in a vacuum. Map your market segment, buyer persona, regulatory hurdles, and competitive context before you commit code. Run this first.
 
-**`/idea-validation`** — Pressure-test your edtech idea against market reality. Uses ScaleU's 5-question diagnostic for higher ed founders. Verdict: GO, PIVOT, DIG DEEPER, or STOP.
+**`/idea-validation`** — An honest pressure-test. Uses ScaleU's 5-question diagnostic for higher ed founders. You'll get a clear verdict: GO, PIVOT, DIG DEEPER, or STOP.
 
 ### Product
 
-**`/product-review`** — Review your product across 5 dimensions: learning design, user experience, buyer requirements, differentiation, and evidence readiness. Scores each 1-10 with specific recommendations.
+**`/product-review`** — Audit your product across the five dimensions that actually matter: learning design, UX, buyer requirements, differentiation, and evidence readiness. Scores 1-10 with specific fixes.
 
-**`/accessibility-check`** — Check against WCAG 2.1 AA, Section 508, and Universal Design for Learning. Prioritized checklist, VPAT guidance, and action plan.
+**`/accessibility-check`** — Don't treat accessibility as an afterthought. Check against WCAG 2.1 AA, Section 508, and UDL. Get a prioritized checklist, VPAT guidance, and an action plan.
 
 ### Evidence & Research
 
-**`/evidence-check`** — Classify your evidence on ESSA tiers (1-4). Most founders overestimate their tier. Get an honest assessment, gap analysis, and concrete plan to move up one tier.
+**`/evidence-check`** — Most founders overestimate their evidence. Get an honest assessment of your ESSA tier (1-4), a gap analysis, and a concrete plan to move up the ladder.
 
-**`/pilot-design`** — Design an effective institutional pilot: week-by-week timeline, success metrics, MOU template, IRB guidance, and pilot-to-contract conversion benchmarks.
+**`/pilot-design`** — How to design a pilot that actually converts to a contract. Covers timelines, success metrics, MOU templates, IRB guidance, and conversion benchmarks.
 
 ### Sales & Go-to-Market
 
-**`/go-to-market`** — Build an edtech GTM strategy. Beachhead selection, pricing guidance aligned to procurement thresholds, sales calendar, and first-90-day action plan.
+**`/go-to-market`** — Build a GTM strategy that survives procurement. Beachhead selection, pricing guidance tied to budget thresholds, and your first-90-day action plan.
 
-**`/sales-strategy`** — Tactical sales playbook for your specific buyer. Outreach templates, demo scripts, procurement navigation, objection handling, and deal acceleration.
+**`/sales-strategy`** — Tactical sales playbook. Outreach templates, demo scripts, and objection handling for the specific buyers who hold the purse strings.
 
 ### Fundraising & Growth
 
-**`/pitch-review`** — Review your pitch through an edtech investor lens. Scores 6 dimensions, flags common mistakes, recommends investor targets by stage, and provides a revised pitch outline.
+**`/pitch-review`** — Review your pitch through an edtech investor lens. Scores six dimensions, flags common traps, and provides a revised pitch outline.
 
-**`/fundraising-guide`** — Who funds edtech at your stage, what evidence they require, and a fundraising playbook with week-by-week execution plan.
+**`/fundraising-guide`** — Who funds edtech right now? Find out what evidence they require and get a week-by-week fundraising playbook.
 
 ## What powers the skills
 
 ### Reference data
 
-Skills read from `data/` for factual claims, not from the AI's training data. This means guidance is grounded in real regulations, real market data, and real procurement processes.
-
-Covers: K-12 regulatory (FERPA, COPPA), higher ed landscape (accreditation, LMS integration), corporate L&D, ESSA evidence tiers, procurement guides, pilot benchmarks, buyer personas, funding landscape, competitive landscape, higher ed jobs atlas, and founder traps.
+We don't rely on generic LLM training data. Skills read from `data/` for factual claims, meaning guidance is grounded in real regulations, real market data, and real procurement processes.
 
 ### Research corpus
 
-Peer-reviewed learning science in `data/research/`, organized by topic. When a skill recommends an approach, it cites specific studies with author, year, finding, and DOI. Topics include active learning, adaptive learning, spaced repetition, cognitive load theory, formative assessment, multimedia principles, and more.
+Peer-reviewed learning science in `data/research/`. When a skill makes a recommendation, it cites specific studies—spaced repetition, cognitive load theory, formative assessment—so you have the DOI to back up your claims.
 
 ### Higher ed framework (SXSW EDU 2026)
 
-Validated jobs across the student journey. The structural patterns founders miss. The noise vs. signal filter. From "Cracking Higher Ed: Why Startups Miss the Mark," presented at SXSW EDU 2026.
+Validated jobs across the student journey. The structural patterns founders usually miss. The noise vs. signal filter. This is the "Cracking Higher Ed" framework we presented at SXSW EDU 2026.
 
 ## About ASU ScaleU
 
-[ScaleU](https://scaleu.asu.edu) is ASU's edtech validation program. We take 1% equity in early-stage startups in exchange for controlled access and a paid pilot at Arizona State University, generating the evidence founders need to fundraise and sell at enterprise scale.
+[ScaleU](https://scaleu.asu.edu) is ASU's edtech validation program. We take 1% equity in early-stage startups in exchange for controlled access and a paid pilot at Arizona State University—generating the evidence you need to fundraise and sell at enterprise scale.
 
 If designing and running an institutional pilot is your next step, that's literally what we do. [Learn more](https://scaleu.asu.edu) or [apply directly](https://scaleu.asu.edu/apply).
 
 ## Philosophy
 
-See [ETHOS.md](ETHOS.md) for what we believe about building edtech products that work. Seven principles, starting with "validate demand, not interest."
+See [ETHOS.md](ETHOS.md) for what we believe about building edtech products that actually work. Seven principles, starting with "validate demand, not interest."
 
 ## Architecture
 
@@ -122,13 +120,9 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for how skills, data files, and the resea
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md) for how to improve existing skills or add new ones. We especially welcome:
-
-- International regulatory data (GDPR, country-specific education regulations)
-- New buyer personas and procurement guides for non-US markets
-- Additional research papers with peer-reviewed evidence
-- Corrections to market data or competitive landscape
+See [CONTRIBUTING.md](CONTRIBUTING.md) for how to improve existing skills or add new ones. We're always looking for better regulatory data, new buyer personas, and more research papers.
 
 ## License
 
 MIT. Use these skills however you want.
+

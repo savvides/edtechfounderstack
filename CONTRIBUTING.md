@@ -1,54 +1,40 @@
 # Contributing to EdTech Founder Stack
 
-Thanks for helping make this resource better for edtech founders.
+Thanks for helping us make this better. If you've lived through the edtech founder grind, you probably have something to add.
 
 ## How skills work
 
-Each skill lives in `skills/{skill-name}/SKILL.md` and follows the standard SKILL.md format:
+Each skill is just a markdown file at `skills/{skill-name}/SKILL.md`. 
 
-```markdown
----
-name: skill-name
-description: One-line description of what this skill does.
----
-
-# Skill Title
-
-Instructions for the AI...
-```
-
-Skills read from reference data in `data/` for regulatory, market, and evidence information, and cite studies from `data/research/` when making claims about learning science. This keeps domain knowledge editable without touching skill logic.
+They're designed to be the opposite of "generic AI advice." Instead of the AI guessing based on its training data, we force it to read from the `data/` and `data/research/` directories. This ensures that when it talks about FERPA, procurement, or cognitive load, it's actually referencing the latest standards and peer-reviewed science.
 
 ## What we're looking for
 
 ### High-value contributions
 
-- **International regulatory data** — GDPR guidance, country-specific education regulations, international accreditation bodies
-- **New buyer personas** — we're US-focused right now. Buyer personas for international education markets would be valuable
-- **Corrections** — if our market data, competitive landscape, or regulatory information is wrong or outdated, please fix it
-- **New skills** — if you've identified a gap in the founder journey that a skill could fill
+- **International regulatory data:** We're very US-centric right now. If you can help us with GDPR, country-specific regulations, or international accreditation, please do.
+- **New buyer personas:** Procurement in the UK or India looks different than in the US. We need those maps.
+- **Corrections:** Education markets move fast. If our competitive landscape data is stale or a regulation has changed, fix it.
+- **New skills:** What's missing? If there's a specific bottleneck in the founder journey we haven't covered, let's build it.
 
 ### Guidelines
 
-1. **Be opinionated.** These skills take positions. "Usage-based pricing works better than per-seat for K-12." If you're adding guidance, have a point of view backed by experience.
-
-2. **Reference data, not hallucination.** Skills should read from `data/` files for factual claims. Don't rely on the AI's training data for company names, funding amounts, or regulatory specifics.
-
-3. **Interactive branching.** Skills ask structured questions and branch based on answers. K-12 founders get different guidance than higher ed founders. Design for this.
-
-4. **Keep it practical.** Every piece of guidance should end with something the founder can do. Not "consider your options" but "here's the procurement timeline for a district of this size."
-
-5. **Context-aware next steps.** Every skill ends by recommending the single most relevant next skill based on what the founder said during the session. Don't use static lists. Route based on scores, evidence tier, stage, and challenges.
+1. **Be opinionated.** We don't do "on the one hand, on the other hand" here. These skills take a stand. If you're adding guidance, it should have a point of view backed by actual experience.
+2. **Read from data.** Never let the AI guess factual info. If you're adding a factual claim, it should live in a `data/` file that the skill reads at runtime.
+3. **Branch based on answers.** A K-12 founder and a corporate L&D founder are living in two different worlds. Your skill should ask questions and adapt its advice accordingly.
+4. **End with an action.** Every skill should result in a "do this next" list. Skip the abstract considerations; give them the procurement timeline or the demo script.
+5. **Smart routing.** Don't just list all the other skills at the end. Recommend the *one* skill they actually need next based on their scores or current stage.
 
 ## Process
 
-1. Fork the repo
-2. Create a branch for your changes
-3. Make your edits
-4. Open a PR with a description of what you changed and why
+1. Fork the repo.
+2. Create a branch for your changes.
+3. Make your edits.
+4. Open a PR and tell us why these changes make the stack better for founders.
 
-The ScaleU team reviews all PRs to maintain quality and consistency.
+The ScaleU team reviews every PR to make sure we're keeping the quality high and the advice consistent.
 
 ## Questions?
 
-Open an issue or reach out to the ScaleU team.
+Open an issue or reach out to the ScaleU team. We're usually around.
+
