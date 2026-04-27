@@ -1,171 +1,55 @@
 # EdTech Buyer Personas
 
+The person who uses your product and the person who buys it are rarely the same person. If you don't know the difference between their motivations, your deal will die in a "committee review."
+
 ## K-12 Personas
 
-### District CTO / Director of Technology
+### The District CTO (The Gatekeeper)
+*   **Motivation:** Data privacy and zero downtime. They don't care about your pedagogy; they care about FERPA and SSO.
+*   **What gets them promoted:** A seamless, secure rollout with zero parent complaints about data.
+*   **What gets them fired:** A data breach or a system crash during high-stakes testing.
+*   **The ScaleU Take:** If you don't have a DPA (Data Privacy Agreement) and a VPAT ready, don't even call them.
 
-**Role:** Oversees all technology infrastructure, software procurement, and data privacy for the district.
+### The District Superintendent (The Visionary)
+*   **Motivation:** Equity, graduation rates, and board satisfaction.
+*   **What gets them promoted:** Moving the needle on state-level test scores or closing an achievement gap.
+*   **How to sell to them:** Connect your product to their top 3 strategic board goals. If it's not on that list, they won't sign.
 
-**What they care about:**
-- Data privacy and FERPA compliance (this is their #1 concern)
-- Integration with existing systems (SIS, LMS, SSO)
-- Scalability across the district
-- Minimal burden on their IT team
-- Vendor reliability and support responsiveness
+### The Curriculum Director (The Evaluator)
+*   **Motivation:** Standards alignment and teacher buy-in.
+*   **What gets them promoted:** Replacing a stale curriculum with something that teachers actually use and like.
+*   **The Trap:** They will ask for Tier 2 evidence. If you give them a testimonial, you're done.
 
-**What gets them promoted:** Smooth technology operations, no data breaches, successful large-scale deployments.
-
-**What gets them in trouble:** Data breaches, products that crash during high-stakes testing, rogue apps collecting student data without agreements.
-
-**How they evaluate products:**
-- Security review first (before they even look at features)
-- Integration capabilities
-- References from other districts of similar size
-- Total cost of ownership (not just license fee — training, support, infrastructure)
-
-**How to reach them:** ISTE conference, CoSN (Consortium for School Networking), state technology conferences, peer referrals from other district CTOs.
-
-### District Superintendent
-
-**Role:** CEO of the district. Sets strategic priorities, manages the school board, oversees all operations.
-
-**What they care about:**
-- Student outcomes (test scores, graduation rates, equity gaps)
-- Community perception and board satisfaction
-- Budget efficiency
-- Innovation that produces measurable results
-
-**What gets them promoted:** Closing achievement gaps, improving graduation rates, positive community engagement.
-
-**How they evaluate products:** Through the lens of strategic priorities. "Does this address one of our board's top 3 goals?"
-
-**How to reach them:** AASA conference, state superintendent meetings, board presentations. You usually don't sell directly to the superintendent — you get referred up to them.
-
-### Curriculum Director / Director of Instruction
-
-**Role:** Oversees curriculum selection, instructional strategies, and professional development.
-
-**What they care about:**
-- Alignment with state standards
-- Evidence of effectiveness (ESSA tiers)
-- Teacher adoption and satisfaction
-- Equity of access
-- Professional development requirements
-
-**What gets them promoted:** Improved student achievement, successful curriculum adoptions, teacher buy-in.
-
-**How they evaluate products:**
-- Standards alignment review
-- Evidence of effectiveness
-- Pilot results from comparable districts
-- Teacher feedback from pilot
-- Professional development and implementation support
-
-**How to reach them:** Curriculum conferences, state adoption processes, publisher/vendor showcases.
-
-### Building Principal
-
-**Role:** Instructional leader of a single school. Manages teachers, budgets, and school culture.
-
-**What they care about:**
-- Solving specific problems in their building (attendance, reading scores, discipline)
-- Teacher satisfaction and workload
-- Quick wins they can show to the district
-- Budget constraints (typically small discretionary budget: $5K-$20K)
-
-**How to reach them:** Teacher referrals, building-level demos, principal networks.
-
-### Classroom Teacher
-
-**Role:** The end user. Makes or breaks adoption.
-
-**What they care about:**
-- Does this save me time or make my students learn better?
-- How much training do I need?
-- Does it work with my existing routines?
-- Will my students actually use it?
-
-**What they don't care about:** Your funding round, your AI model, your architecture. They care about Tuesday morning.
-
-**How to reach them:** Word of mouth from other teachers, social media (Twitter/X edtech community, Facebook teacher groups), conferences (ISTE, state-level), free trials.
+---
 
 ## Higher Ed Personas
 
-### Chief Information Officer (CIO)
+### The CIO (The Risk Manager)
+*   **Motivation:** Institutional security and "interoperability" (LMS integration).
+*   **What gets them in trouble:** Integrating a "rogue" app that doesn't follow institutional data standards.
+*   **How to sell:** Prove that you "play nice" with Canvas, Blackboard, or Workday.
 
-**Role:** Oversees institutional technology strategy, infrastructure, and security.
+### The Provost (The Academic Lead)
+*   **Motivation:** Retention, completion, and accreditation.
+*   **The Reality:** They rarely respond to cold outreach. You need a Dean or a Department Chair to walk you into their office.
 
-**What they care about:**
-- Cybersecurity and data protection
-- System integration and interoperability
-- Institutional risk management
-- Sustainable technology architecture
+### The Department Chair (The Practical Champion)
+*   **Motivation:** Faculty workload and student success in *their* specific discipline.
+*   **The Secret:** This is the highest-leverage persona in higher ed. They have a budget and the authority to pilot.
 
-**How they evaluate products:** Security assessment → architecture review → integration capabilities → cost analysis.
-
-### Provost / VP of Academic Affairs
-
-**Role:** Chief academic officer. Oversees all academic programs, faculty, and educational quality.
-
-**What they care about:**
-- Student retention and completion rates
-- Academic quality and accreditation
-- Faculty satisfaction and support
-- Enrollment trends
-
-**How they evaluate products:** "Does this improve student outcomes in a way we can demonstrate to our accreditor and board?"
-
-**How to reach them:** Through internal champions (deans, department chairs). Provosts rarely respond to cold outreach.
-
-### Department Chair
-
-**Role:** Faculty member who also manages a department. Half academic, half administrator.
-
-**What they care about:**
-- Teaching effectiveness across the department
-- Faculty workload management
-- Student success in their program
-- Budget constraints
-
-**Key insight:** Department chairs are often the most effective champions for institutional adoption. They have credibility with faculty AND administrative authority.
-
-### Individual Faculty
-
-**Role:** Professor, lecturer, or instructor. The person in the classroom.
-
-**What they care about:**
-- Student learning outcomes in their courses
-- Their own time (research, grading, prep)
-- Academic freedom (don't tell them how to teach)
-- Evidence that it works in their discipline
-
-**Key insight:** Faculty adoption is personal and discipline-specific. A chemistry professor and an English professor have completely different needs and workflows. Don't treat "faculty" as one persona.
-
-### Director of Online Learning / Instructional Design
-
-**Role:** Manages online course development, supports faculty with technology integration.
-
-**What they care about:**
-- Course quality and consistency
-- Faculty training and support efficiency
-- Accessibility compliance
-- LMS integration
-
-**Key insight:** These people are your implementation partners. Get them on your side early. They're the ones who will train faculty and troubleshoot issues.
-
-## Corporate L&D Personas
-
-See `corporate-ld.md` for detailed corporate buyer personas.
-
-## Cross-cutting insights
-
-1. **The buyer is rarely the user.** In K-12, teachers use the product but principals, curriculum directors, or IT directors buy it. In higher ed, faculty use it but departments or IT buy it. Design your sales process accordingly.
-
-2. **Champions matter more than features.** An enthusiastic teacher or professor who advocates for your product internally is worth more than any feature comparison chart.
-
-3. **The procurement path is different at every institution.** Don't assume that what worked at one district/university will work at another. Ask: "How does purchasing work here?"
-
-4. **Trust is earned through pilots, not pitches.** Education buyers are skeptical of vendor claims. Let them try it, see the data, and make their own decision.
+### Individual Faculty (The Skeptic)
+*   **Motivation:** Their own time and "Academic Freedom."
+*   **What they hate:** Being told how to teach by a software company.
+*   **What they love:** Anything that saves them 5 hours of grading a week.
 
 ---
-*Last updated: 2026-03-31. US-focused. International buyer personas differ significantly.*
+
+## The ScaleU Commandments of Sales
+
+1.  **Follow the Mirror:** Find where the student's struggle meets the provider's capacity constraint. That's where the budget is.
+2.  **Respect the Calendar:** If you're pitching K-12 in September, you're six months too late for the budget.
+3.  **No "Chatbot" Pitches:** Don't sell the AI. Sell the outcome. "Our AI grades 100 essays in 5 minutes" is a better pitch than "We use a fine-tuned LLM."
+4.  **The Pilot is the Product:** In education, nobody buys from a deck. They buy because the pilot proved it worked for *their* students.
+
+---
+*Last updated: 2026-04-27*

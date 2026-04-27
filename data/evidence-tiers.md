@@ -1,145 +1,61 @@
-# ESSA Evidence Tiers
+# The ESSA Evidence Ladder
 
-## What is ESSA?
+In edtech, "evidence" isn't a marketing buzzword—it's a regulatory framework. The Every Student Succeeds Act (ESSA) defines four tiers of evidence that schools, districts, and states use to decide what to buy.
 
-The Every Student Succeeds Act (ESSA) established four tiers of evidence for educational interventions. These tiers are used by schools, districts, and states to evaluate edtech products and are increasingly referenced by investors and institutional buyers.
+Most founders overestimate their evidence. If you tell a district CTO you have "strong evidence" because a teacher gave you a quote, you've just lost the deal.
 
-Understanding where your evidence stands — and what tier your buyer requires — is critical for edtech founders.
+## The Four Tiers (The Hard Truth)
 
-## The Four Tiers
+### Tier 1: Strong Evidence (The Gold Standard)
+*   **What it is:** A randomized controlled trial (RCT).
+*   **The Reality:** 200+ students, random assignment, pre/post assessments, and a peer-reviewed publication.
+*   **Cost:** $150K - $500K+. 
+*   **Timeline:** 12-24 months.
+*   **Who cares:** Federal grant makers, state-level adoptions, and Series B+ investors.
 
-### Tier 1: Strong Evidence
+### Tier 2: Moderate Evidence (The Enterprise Gate)
+*   **What it is:** A quasi-experimental study.
+*   **The Reality:** You compared classrooms that used your product to similar classrooms that didn't. You controlled for demographics and prior achievement.
+*   **Cost:** $75K - $250K. 
+*   **Timeline:** 6-18 months.
+*   **Who cares:** Large district procurement offices and impact-focused VCs.
 
-**What it requires:**
-- At least one well-designed, well-implemented **experimental study** (randomized controlled trial / RCT)
-- Statistically significant positive findings on a relevant student outcome
-- Study conducted in a sample that overlaps with the target population
-- Study published in a peer-reviewed journal or meets WWC (What Works Clearinghouse) standards
+### Tier 3: Promising Evidence (The Series A Requirement)
+*   **What it is:** A correlational study with statistical controls.
+*   **The Reality:** You analyzed existing usage and outcome data and proved a statistical link between the two. You didn't just show a graph; you ran a regression model.
+*   **Cost:** $25K - $100K.
+*   **Timeline:** 3-12 months.
+*   **Who cares:** Mid-market district buyers and Series A investors.
 
-**What it looks like in practice:**
-- A randomized controlled trial with 200+ students across 5+ classrooms
-- Random assignment to treatment (using your product) and control (not using it) groups
-- Pre/post assessments measuring specific learning outcomes
-- Statistical analysis showing significant improvement in the treatment group
-- Published in a peer-reviewed education or psychology journal
+### Tier 4: Demonstrates a Rationale (The Table Stakes)
+*   **What it is:** A logic model + a research agenda.
+*   **The Reality:** You have a "Theory of Change" based on existing science and you're currently running a pilot to prove it.
+*   **Cost:** $5K - $25K (Mostly internal time).
+*   **Timeline:** 1-3 months.
+*   **Who cares:** Pre-seed investors and early adopters. **If you don't have this, you don't have a product.**
 
-**Cost estimate:** $150K-$500K+ depending on scale and whether you partner with a university
-**Timeline:** 12-24 months from study design to publication
+## The AI Evidence Dimension (New for 2026)
 
-**Who requires it:**
-- Federal grants (e.g., Education Innovation and Research grants)
-- Some large district procurement decisions
-- State-level adoption decisions
+If you're building an AI-native product, the ESSA tiers are necessary but not sufficient. Investors and sophisticated buyers now look for **Behavior Change**.
 
-### Tier 2: Moderate Evidence
+*   **The Question:** Does the AI change *how* the user works, or just how fast they do the same old task?
+*   **The Metric:** Reversion Rate. If you turned off the AI today, would the user wait for it to come back, or just go back to their old workaround? If they go back immediately, you haven't changed their behavior.
 
-**What it requires:**
-- At least one well-designed, well-implemented **quasi-experimental study**
-- Statistically significant positive findings
-- Study uses a comparison group but not random assignment
-- Meets WWC standards with reservations
+## The Scaling Ladder (Investor Expectations)
 
-**What it looks like in practice:**
-- Comparing classrooms/schools that used your product vs. similar ones that didn't
-- Matching on demographics, prior achievement, and other characteristics
-- Pre/post assessments with statistical controls for group differences
-- Common designs: matched comparison, regression discontinuity, propensity score matching
+| Stage | What you MUST have |
+|-------|--------------------|
+| **Pre-seed** | Tier 4 (Logic Model + Pilot Plan) |
+| **Seed** | Tier 4 (Usage data) + Plan for Tier 3 |
+| **Series A** | Tier 3 (Correlational) + Pilot for Tier 2 |
+| **Series B+** | Tier 2 (Quasi-Experimental) |
 
-**Cost estimate:** $75K-$250K
-**Timeline:** 6-18 months
+## The ScaleU Take: How to Move Up
 
-**Who requires it:**
-- Many district-level procurement decisions
-- State textbook/material adoption processes
-- Impact-focused edtech investors
-
-### Tier 3: Promising Evidence
-
-**What it requires:**
-- At least one well-designed, well-implemented **correlational study** with statistical controls
-- Shows a statistically significant positive correlation between the intervention and outcomes
-
-**What it looks like in practice:**
-- Analysis of existing usage and outcome data
-- Statistical models controlling for confounding variables (demographics, prior achievement)
-- Common designs: regression analysis of adoption data, growth modeling
-
-**Cost estimate:** $25K-$100K
-**Timeline:** 3-12 months
-
-**Who requires it:**
-- Many school and district purchase decisions
-- Accelerator and incubator applications
-- Early-stage fundraising (Series A)
-
-### Tier 4: Demonstrates a Rationale
-
-**What it requires:**
-- A well-defined **logic model** or **theory of change** based on research
-- Effort to study the effects of the intervention is underway or planned
-
-**What it looks like in practice:**
-- Logic model connecting your product's features to expected outcomes
-- Citations to relevant research supporting your approach
-- Description of your planned research agenda
-- May include pilot data, usage analytics, or user testimonials
-
-**Cost estimate:** $5K-$25K (mostly internal time)
-**Timeline:** 1-3 months
-
-**Who requires it:**
-- This is the minimum for any credible edtech product
-- Early-stage investor conversations
-- Accelerator applications
-- Initial school/district conversations
-
-## Practical Guidance for Founders
-
-### Where most edtech startups actually are
-
-Most early-stage edtech startups are at Tier 4 (rationale) or working toward Tier 3 (correlational). This is normal and expected.
-
-**The common mistake:** Founders often think they have Tier 2 or Tier 3 evidence when they actually have Tier 4. A teacher saying "my students loved it" is not evidence. Usage data showing "students spent 20 minutes per session" is not evidence of learning outcomes. Positive outcomes without a comparison group are not Tier 2 or 3.
-
-### Moving up the evidence ladder
-
-**From Tier 4 to Tier 3:**
-1. Define specific, measurable learning outcomes (not engagement metrics)
-2. Collect outcome data alongside usage data
-3. Identify available comparison data (school/district average performance, prior year data)
-4. Run a statistical analysis with appropriate controls
-5. Partner with a university researcher if possible (many are looking for edtech collaborations)
-
-**From Tier 3 to Tier 2:**
-1. Design a quasi-experimental study with a matched comparison group
-2. Partner with a university research team
-3. Secure IRB approval
-4. Run the study for at least one semester
-5. Publish results (peer review preferred but not required for ESSA Tier 2)
-
-**From Tier 2 to Tier 1:**
-1. Design a randomized controlled trial
-2. Secure significant funding ($150K+) — consider IES grants, NSF, or foundation funding
-3. Partner with an established education research team
-4. Pre-register the study
-5. Run the trial and publish in a peer-reviewed journal
-
-### Evidence and fundraising
-
-| Funding stage | Evidence typically expected |
-|---------------|---------------------------|
-| Pre-seed | Tier 4 (rationale + pilot data) |
-| Seed | Tier 4 with usage data, working toward Tier 3 |
-| Series A | Tier 3 minimum, Tier 2 preferred |
-| Series B+ | Tier 2 minimum, Tier 1 a differentiator |
-| Government grants | Varies by program (EIR requires Tier 1-3 depending on grant level) |
-
-### Key research partners and resources
-
-- **What Works Clearinghouse (WWC):** IES standards for evaluating evidence. If your study meets WWC standards, buyers trust it.
-- **ISTE (International Society for Technology in Education):** Standards and community for edtech research
-- **LearnPlatform (now Instructure):** Edtech effectiveness research and rapid cycle evaluation
-- **University research partners:** Many colleges of education actively seek edtech partnerships for research. ASU, Stanford, MIT, Georgia Tech, and University of Virginia all have strong edtech research programs.
+1.  **Stop counting "logins":** Usage is not an outcome. Stop reporting it as evidence.
+2.  **Define ONE outcome:** Pick one measurable learning goal. Just one.
+3.  **Find a "Mirror":** Use your pilot data to find where the student's problem meets a provider's capacity constraint.
+4.  **Partner early:** University researchers want publications. You want proof. It's a fair trade.
 
 ---
-*Last updated: 2026-03-31. ESSA is a US federal framework. International evidence frameworks differ.*
+*Last updated: 2026-04-27*
