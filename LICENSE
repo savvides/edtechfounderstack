@@ -19,3 +19,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+---
+
+Exception: data/operator-lessons.md is NOT covered by the MIT license above.
+Those lessons are paraphrased from the free public archive of Lenny's Podcast
+and Lenny's Newsletter and may be used for personal, non-commercial purposes
+only, under the source's terms. Do not reuse that file commercially or
+redistribute it as raw content.

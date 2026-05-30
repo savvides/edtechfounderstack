@@ -10,7 +10,7 @@ assignees: ''
 Describe what's incorrect, outdated, or broken.
 
 **Which file(s)?**
-List the file path(s) affected (e.g., `data/k12-regulatory.md`, `skills/pilot-design/SKILL.md`).
+List the file path(s) affected (e.g., `data/k12-regulatory.md`, `data/operator-lessons.md`).
 
 **What should it say instead?**
 If you know the correct information, include it here with a source.

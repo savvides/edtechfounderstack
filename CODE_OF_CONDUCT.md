@@ -4,7 +4,7 @@
 
 We are committed to making participation in EdTech Founder Stack a welcoming experience for everyone, regardless of background, identity, or experience level.
 
-This project exists to help edtech founders build better products. Contributions that advance that mission, whether correcting a regulatory detail, adding research, or proposing new skills, are welcome from anyone.
+This project exists to help edtech founders build better products. Contributions that advance that mission, whether correcting a regulatory detail, adding research, or expanding the knowledge base, are welcome from anyone.
 
 ## Standards
 

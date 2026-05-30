@@ -1,19 +1,19 @@
 ---
 name: Feature request
-about: Suggest a new skill, data topic, or market coverage
+about: Suggest a new data topic or coverage area
 title: ''
 labels: enhancement
 assignees: ''
 ---
 
 **What's missing?**
-Describe the skill, data file, or coverage gap.
+Describe the data, topic, or coverage gap.
 
 **Who needs it?**
 What type of edtech founder would use this? (e.g., K-12 founders in the UK, corporate L&D startups targeting healthcare)
 
-**What would it do?**
-Describe the ideal output. What questions would it ask? What guidance would it provide?
+**What would it add?**
+What should the knowledge base say? Point to sources if you have them.
 
-**Do you want to build it?**
-If you're interested in contributing this, let us know. We can help with the skill structure.
+**Do you want to add it?**
+If you're interested in contributing this, let us know.

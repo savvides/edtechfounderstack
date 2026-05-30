@@ -4,18 +4,16 @@
 
 ## Type of change
 
-- [ ] New skill
-- [ ] Skill update
 - [ ] Data file update (regulatory, market, competitive)
 - [ ] Research paper addition
+- [ ] New data topic or coverage area
 - [ ] Documentation
 - [ ] Other
 
 ## Checklist
 
-- [ ] SKILL.md files have YAML frontmatter with `name` and `description`
-- [ ] Data files have "Last updated" footer with date
+- [ ] Data files have a "Last updated" footer with date
 - [ ] Research papers include Title, Takeaway, Type, Year, Citations, DOI
-- [ ] CLAUDE.md routing rules updated (if adding a new skill)
+- [ ] Every factual claim cites a source (regulation, DOI, or named operator)
 - [ ] CHANGELOG.md updated with what changed
 - [ ] No broken cross-references between files

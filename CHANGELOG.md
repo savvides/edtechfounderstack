@@ -1,5 +1,16 @@
 # Changelog
 
+## 2.0.0 (2026-05-29)
+
+### Repositioned as a knowledge base
+
+EdTech Founder Stack is now a curated, AI-friendly knowledge base for edtech founders — markdown you point your AI tools at or read directly — rather than a set of interactive skills. The knowledge in `data/` is the product.
+
+- **New `data/operator-lessons.md`** — 71 field lessons on validation, product, GTM, sales, pricing, pilots, fundraising, and team, distilled and attributed from the free public archive of Lenny's Podcast and Lenny's Newsletter and mapped to selling into schools, universities, and L&D. Paraphrased under the source's personal/non-commercial terms.
+- **Removed the interactive skills** — the `skills/` directory and the `setup` script are gone; the `data/` knowledge base is the whole product. CI now validates the data and research files only.
+- **Docs rewritten** — README, ARCHITECTURE.md, CONTRIBUTING.md, and CLAUDE.md now describe the knowledge base and how to use it with Claude Code, Cursor, and ChatGPT.
+- **Version badge** — bumped to 2.0.0.
+
 ## 1.4.0 (2026-04-25)
 
 ### Public launch readiness

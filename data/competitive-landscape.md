@@ -2,7 +2,7 @@
 
 ## How to use this file
 
-This file maps key companies by education segment. Skills reference it to provide competitive context without relying on LLM training data (which goes stale). Update this file quarterly.
+This file maps key companies by education segment. It provides competitive context without relying on LLM training data (which goes stale). Update this file quarterly.
 
 ## K-12
 

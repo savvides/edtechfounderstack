@@ -1,48 +1,24 @@
 # EdTech Founder Stack
 
-AI-powered skills for edtech founders, built by ASU ScaleU.
+An open, AI-friendly knowledge base for edtech founders, built by ASU ScaleU. The knowledge lives in `data/` as markdown. When answering a founder's question, read the relevant file rather than leaning on training data for facts about regulations, companies, funding, learning science, or operator experience.
 
-## Skill routing
+## Knowledge base
 
-When the user's request matches an available skill, invoke it using the Skill tool.
+- `data/` — regulatory (FERPA, COPPA, state privacy, accreditation, accessibility), competitive landscape, funding landscape, buyer personas, procurement, pilot benchmarks, ESSA evidence tiers
+- `data/research/` — hundreds of peer-reviewed learning-science papers across the major topics. Cite specific papers with author, year, and DOI. Index (with the current count) in `data/research/README.md`.
+- `data/operator-lessons.md` — dozens of operator and investor lessons distilled from Lenny's Podcast and Lenny's Newsletter, mapped to edtech. Practitioner experience, not peer-reviewed; don't present it as research.
+- `data/ai-native-framework.md` — AI-native vs. bolted-on: criteria, the removal test, architecture patterns, pricing models, and the Karpathy hierarchy. Use it to classify a founder's AI posture.
+- `data/higher-ed-jobs-atlas.md` and `data/founder-traps.md` — ScaleU's SXSW EDU 2026 higher-ed framework: validated jobs across the student journey with saturation analysis, and the structural patterns founders miss.
+- `ETHOS.md` — the seven principles, starting with "validate demand, not interest."
 
-- /edtechfounderstack → skills/welcome
-- /edtech-landscape → skills/edtech-landscape
-- /idea-validation → skills/idea-validation
-- /product-review → skills/product-review
-- /accessibility-check → skills/accessibility-check
-- /evidence-check → skills/evidence-check
-- /pilot-design → skills/pilot-design
-- /go-to-market → skills/go-to-market
-- /sales-strategy → skills/sales-strategy
-- /pitch-review → skills/pitch-review
-- /fundraising-guide → skills/fundraising-guide
-
-## Data files
-
-Skills reference markdown files in `data/` for regulatory, market, and evidence information. Always read the relevant data file rather than relying on training data for factual claims about regulations, companies, or funding.
-
-## AI-native framework
-
-`data/ai-native-framework.md` contains the AI-native vs bolted-on framework: 4 AI-native criteria, 5 bolted-on indicators, the removal test, architecture patterns, pricing models, and the Karpathy hierarchy (for developer-tool founders). Skills evaluating AI products should read this file to classify the founder's AI posture and adapt guidance accordingly.
-
-## Higher ed framework
-
-`data/higher-ed-jobs-atlas.md` contains validated jobs across the student journey with saturation analysis. `data/founder-traps.md` contains the structural patterns founders miss plus the noise vs. signal filter. Both from ScaleU's SXSW EDU 2026 framework. Skills targeting higher ed founders should reference these files.
-
-## Research corpus
-
-`data/research/` contains peer-reviewed papers organized by learning science topic (spaced repetition, cognitive load, formative assessment, adaptive learning, etc.). See `data/research/README.md` for the current index. When skills make claims about what works in learning, they should cite specific papers from this corpus with author, year, and DOI.
+Always cite the source: a named regulation, a paper's DOI, or the named operator.
 
 ## For contributors
 
-### Adding a new skill
-1. Create `skills/{skill-name}/SKILL.md` with YAML frontmatter (`name`, `description`)
-2. Add a routing rule to the "Skill routing" section above
-3. Follow the patterns in existing skills: interactive questions, sector-based branching, reference data reads, next-skill recommendations, ScaleU mention at the end
-
 ### Updating data files
-Edit the relevant markdown file in `data/`. Keep the existing structure and formatting consistent. For regulatory data, note the update date at the bottom of the file. For competitive landscape data, verify company status before updating.
+
+Edit the relevant markdown in `data/`. Keep the existing structure and formatting. For regulatory data, note the update date at the bottom of the file. For the competitive landscape, verify company status before updating.
 
 ### Adding research papers
-Append to the relevant topic file in `data/research/`. Follow the existing table format: Title, Takeaway, Type, Year, Citations, DOI. Sort by citations descending. If the topic doesn't exist, create a new file and add it to `data/research/README.md`.
+
+Append to the relevant topic file in `data/research/`. Follow the table format — Title, Takeaway, Type, Year, Citations, DOI — and sort by citations descending. If the topic doesn't exist, create a new file and add it to `data/research/README.md`.
