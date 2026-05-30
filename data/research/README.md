@@ -1,6 +1,6 @@
 # Research Corpus Index
 
-Evidence base powering EdTech Founder Stack skills and recommendations.
+Evidence base powering EdTech Founder Stack.
 
 | Topic | File | Papers |
 |-------|------|--------|
