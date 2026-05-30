@@ -1,5 +1,19 @@
 # Changelog
 
+## 2.1.0 (2026-05-30)
+
+### Demand-validation toolkit + knowledge from sibling repos
+
+Folds content from three sibling repos — Cracking Higher Ed (SXSW EDU 2026), the JTBD Switch toolkit, and ASU+GSV 2026 Summit Intelligence — into the knowledge base, centered on demand validation. Sources are CC BY 4.0 (Cracking Higher Ed, summit) and MIT (JTBD), attributed in-file; summit and JTBD material is labeled practitioner signal, not peer-reviewed.
+
+- **New `data/demand-validation.md`** — the 5-question demand diagnostic with scoring and the validation depth probes.
+- **New `data/jtbd-interviews.md`** — the JTBD "Switch" interview method (four forces, job stories, backward-timeline guide), reframed for edtech.
+- **New `data/defensibility-moats.md`** — the exposure spectrum, four moats, and the AI-substitution durability test.
+- **New `data/ai-risk-and-trust.md`** — AI's effect on learners and trust, with design responses founders can adopt.
+- **New `data/buyer-demand-signals.md`** — the durable jobs institutional buyers switch for, and how to read real demand.
+- **Fixed `data/higher-ed-jobs-atlas.md`** — completed from 11 to the full 15 jobs (the phase counts already implied 15).
+- Augmented `procurement-guide.md` and `pilot-benchmarks.md` with summit-sourced buyer and pilot realities; added case-study and job-statement issue templates; updated README, ARCHITECTURE.md, and CLAUDE.md.
+
 ## 2.0.0 (2026-05-29)
 
 ### Repositioned as a knowledge base

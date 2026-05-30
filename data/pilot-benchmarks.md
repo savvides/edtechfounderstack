@@ -96,5 +96,29 @@ A Memorandum of Understanding for an edtech pilot should cover:
 - Showing not just "it worked" but "here's what it would look like at scale"
 - Addressing implementation concerns proactively (training, support, integration)
 
+## Pilot readiness: the hard filters
+
+Before a structured pilot is worth running, the company must clear five binary gates (from ScaleU's EdTech Pilot Playbook). If any answer is "no," it isn't pilot-ready, regardless of product quality.
+
+1. **Institutional buyer exists** — a named person at a named institution who would champion it. "Higher education" is not a buyer.
+2. **The problem is real** — evidence, not assumption, that the problem matters to institutional stakeholders.
+3. **A product exists** — usable today, not a deck or a prototype.
+4. **Validation is possible** — you can design a pilot that produces measurable evidence within the cycle.
+5. **The founder will engage** — treats the pilot as evidence generation, not a sales demo.
+
+## The go / pivot / no-go gate
+
+Decide the three outcomes *before* the pilot starts, so the decision framework already exists when the data lands:
+
+- **Go** — the budget holder commits to procurement.
+- **Pivot** — adjust scope or population and re-test.
+- **No-go** — end the relationship, with documented reasons.
+
+Pilots with pre-agreed success criteria convert at higher rates because the decision is already framed. In the debrief, share the evidence including the negative findings — that's what separates a validation partner from a vendor.
+
+*Source: ScaleU EdTech Pilot Playbook (ASU+GSV 2026 Summit Intelligence). CC BY 4.0.*
+
+See also [demand-validation.md](demand-validation.md) and [procurement-guide.md](procurement-guide.md).
+
 ---
-*Last updated: 2026-03-31. Benchmarks are directional, drawn from patterns across multiple edtech accelerator programs and university partnerships.*
+*Last updated: 2026-05-30. Benchmarks are directional, drawn from patterns across multiple edtech accelerator programs and university partnerships.*

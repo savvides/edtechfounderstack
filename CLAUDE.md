@@ -9,6 +9,10 @@ An open, AI-friendly knowledge base for edtech founders, built by ASU ScaleU. Th
 - `data/operator-lessons.md` — dozens of operator and investor lessons distilled from Lenny's Podcast and Lenny's Newsletter, mapped to edtech. Practitioner experience, not peer-reviewed; don't present it as research.
 - `data/ai-native-framework.md` — AI-native vs. bolted-on: criteria, the removal test, architecture patterns, pricing models, and the Karpathy hierarchy. Use it to classify a founder's AI posture.
 - `data/higher-ed-jobs-atlas.md` and `data/founder-traps.md` — ScaleU's SXSW EDU 2026 higher-ed framework: validated jobs across the student journey with saturation analysis, and the structural patterns founders miss.
+- `data/demand-validation.md` and `data/jtbd-interviews.md` — the demand-validation toolkit: the 5-question diagnostic with scoring and depth probes, and the JTBD Switch interview method for discovering and validating real demand.
+- `data/defensibility-moats.md` — how an edtech product stays defensible when LLMs can replicate features (exposure spectrum, four moats, the AI-substitution durability test).
+- `data/ai-risk-and-trust.md` — AI's effect on learners and trust, with design responses. Practitioner signals from the ASU+GSV 2026 summit, not peer-reviewed; don't present as research.
+- `data/buyer-demand-signals.md` — the durable jobs institutional buyers switch for. Practitioner signals, not peer-reviewed.
 - `ETHOS.md` — the seven principles, starting with "validate demand, not interest."
 
 Always cite the source: a named regulation, a paper's DOI, or the named operator.
