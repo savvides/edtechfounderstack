@@ -22,11 +22,11 @@ Each regulatory and market file carries a "last updated" date. Update cadence is
 
 ### Research corpus — `data/research/`
 
-376 peer-reviewed papers across 19 learning-science topics, each stored in a markdown table: Title, Takeaway, Study Type, Year, Citations, DOI. The index lives in `data/research/README.md`. This is the evidence base — claims about what works in learning cite specific papers with author, year, finding, and DOI.
+Hundreds of peer-reviewed papers across the major learning-science topics, each stored in a markdown table: Title, Takeaway, Study Type, Year, Citations, DOI. The index lives in `data/research/README.md`. This is the evidence base — claims about what works in learning cite specific papers with author, year, finding, and DOI.
 
 ### Operator playbooks — `data/operator-lessons.md`
 
-71 field lessons from operators and investors, distilled and attributed from the public archive of Lenny's Podcast and Lenny's Newsletter, then mapped to selling into schools, universities, and L&D. These are practitioner experience, not peer-reviewed evidence — the research corpus is the evidence layer, and the file says so.
+Dozens of field lessons from operators and investors, distilled and attributed from the public archive of Lenny's Podcast and Lenny's Newsletter, then mapped to selling into schools, universities, and L&D. These are practitioner experience, not peer-reviewed evidence — the research corpus is the evidence layer, and the file says so.
 
 ## How it's consumed
 

@@ -5,8 +5,8 @@ An open, AI-friendly knowledge base for edtech founders, built by ASU ScaleU. Th
 ## Knowledge base
 
 - `data/` — regulatory (FERPA, COPPA, state privacy, accreditation, accessibility), competitive landscape, funding landscape, buyer personas, procurement, pilot benchmarks, ESSA evidence tiers
-- `data/research/` — 376 peer-reviewed learning-science papers across 19 topics. Cite specific papers with author, year, and DOI. Index in `data/research/README.md`.
-- `data/operator-lessons.md` — 71 operator and investor lessons distilled from Lenny's Podcast and Lenny's Newsletter, mapped to edtech. Practitioner experience, not peer-reviewed; don't present it as research.
+- `data/research/` — hundreds of peer-reviewed learning-science papers across the major topics. Cite specific papers with author, year, and DOI. Index (with the current count) in `data/research/README.md`.
+- `data/operator-lessons.md` — dozens of operator and investor lessons distilled from Lenny's Podcast and Lenny's Newsletter, mapped to edtech. Practitioner experience, not peer-reviewed; don't present it as research.
 - `data/ai-native-framework.md` — AI-native vs. bolted-on: criteria, the removal test, architecture patterns, pricing models, and the Karpathy hierarchy. Use it to classify a founder's AI posture.
 - `data/higher-ed-jobs-atlas.md` and `data/founder-traps.md` — ScaleU's SXSW EDU 2026 higher-ed framework: validated jobs across the student journey with saturation analysis, and the structural patterns founders miss.
 - `ETHOS.md` — the seven principles, starting with "validate demand, not interest."

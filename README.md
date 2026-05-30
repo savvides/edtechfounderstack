@@ -21,7 +21,7 @@ Everything lives in `data/` as plain markdown, in four layers.
 
 ### Learning science research — `data/research/`
 
-376 peer-reviewed papers across 19 topics: spaced repetition, cognitive load, formative assessment, adaptive learning, worked examples, the learning-styles myth, and more. Each paper carries its takeaway, study type, year, citation count, and DOI. When you tell a buyer or investor that something works, cite the paper, not a vibe. Index: [`data/research/README.md`](data/research/README.md).
+Hundreds of peer-reviewed papers across the major learning-science topics: spaced repetition, cognitive load, formative assessment, adaptive learning, worked examples, the learning-styles myth, and more. Each paper carries its takeaway, study type, year, citation count, and DOI. When you tell a buyer or investor that something works, cite the paper, not a vibe. Index: [`data/research/README.md`](data/research/README.md).
 
 ### Market & regulatory reference — `data/`
 
@@ -40,7 +40,7 @@ Everything lives in `data/` as plain markdown, in four layers.
 
 ### Operator playbooks — `data/operator-lessons.md`
 
-71 field lessons on validation, product, go-to-market, sales, pricing, pilots, fundraising, and team — distilled from operators and investors on Lenny's Podcast and Lenny's Newsletter, and mapped to selling into schools, universities, and L&D. Practitioner experience, attributed and paraphrased; the research corpus is the evidence layer.
+Dozens of field lessons on validation, product, go-to-market, sales, pricing, pilots, fundraising, and team — distilled from operators and investors on Lenny's Podcast and Lenny's Newsletter, and mapped to selling into schools, universities, and L&D. Practitioner experience, attributed and paraphrased; the research corpus is the evidence layer.
 
 ## How to use it
 
