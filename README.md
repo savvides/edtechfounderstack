@@ -66,4 +66,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to help, and [ARCHITECTURE.md](AR
 
 ## License
 
-MIT — use the knowledge however you want. The operator playbooks in [`data/operator-lessons.md`](data/operator-lessons.md) are paraphrased and attributed from the free public dataset of Lenny's Podcast and Lenny's Newsletter, under its personal/non-commercial terms; see the note at the bottom of that file.
+The repository's original content is **MIT** — use it however you want.
+
+**Exception:** [`data/operator-lessons.md`](data/operator-lessons.md) is **not** covered by MIT. Those lessons are paraphrased from the free public archive of Lenny's Podcast and Lenny's Newsletter under its personal/non-commercial terms, so treat that one file as personal, non-commercial use only, not for commercial reuse. See the note at the bottom of the file.

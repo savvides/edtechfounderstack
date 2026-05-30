@@ -2,7 +2,7 @@
 
 Field lessons from operators and investors, distilled in our own words from the free public archive of [Lenny's Podcast](https://www.lennyspodcast.com) and [Lenny's Newsletter](https://www.lennysnewsletter.com) ([starter dataset](https://github.com/LennysNewsletter/lennys-newsletterpodcastdata)). These are practitioner experience, not peer-reviewed research — for the evidence base on what actually works in learning, see `data/research/`.
 
-Each lesson notes who it came from. Most podcast episodes don't have a stable post URL in the source data, so search the guest's name on lennyspodcast.com to find the episode.
+Each lesson notes who it came from. Where a lesson links out, the link goes to that episode or post page on Lenny's site (lennysnewsletter.com). Most podcast episodes have no stable URL in the source data, so for those, search the guest's name on lennyspodcast.com to find the episode.
 
 ## Validating demand
 
