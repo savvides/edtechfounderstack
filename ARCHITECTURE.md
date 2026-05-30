@@ -15,8 +15,8 @@ All of it lives in `data/`, in three kinds of files.
 Structured domain knowledge, grounded in real sources rather than model training data:
 
 - **Regulatory** — FERPA, COPPA, and state privacy law (K-12); accreditation and accessibility (higher ed)
-- **Market** — competitive landscape by segment, buyer personas, funding landscape by stage, procurement, pilot benchmarks
-- **Frameworks** — ESSA evidence tiers, AI-native vs. bolted-on, the higher-ed jobs atlas, and founder traps
+- **Market** — competitive landscape by segment, buyer personas, buyer demand signals, funding landscape by stage, procurement, pilot benchmarks
+- **Frameworks** — ESSA evidence tiers, AI-native vs. bolted-on, defensibility moats, the higher-ed jobs atlas, founder traps, and the demand-validation toolkit (the 5-question diagnostic plus the JTBD Switch interview method)
 
 Each regulatory and market file carries a "last updated" date. Update cadence is roughly quarterly; regulatory data when laws change; the competitive landscape goes stale fastest.
 
@@ -26,7 +26,7 @@ Hundreds of peer-reviewed papers across the major learning-science topics, each 
 
 ### Operator playbooks — `data/operator-lessons.md`
 
-Dozens of field lessons from operators and investors, distilled and attributed from the public archive of Lenny's Podcast and Lenny's Newsletter, then mapped to selling into schools, universities, and L&D. These are practitioner experience, not peer-reviewed evidence — the research corpus is the evidence layer, and the file says so.
+Dozens of field lessons from operators and investors, distilled and attributed from the public archive of Lenny's Podcast and Lenny's Newsletter, then mapped to selling into schools, universities, and L&D. These are practitioner experience, not peer-reviewed evidence — the research corpus is the evidence layer, and the file says so. The same practitioner-not-peer-reviewed labeling applies to the summit-sourced files (`data/buyer-demand-signals.md`, `data/ai-risk-and-trust.md`), which each carry their source and an evidence-tier note.
 
 ## How it's consumed
 

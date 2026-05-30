@@ -30,12 +30,16 @@ Hundreds of peer-reviewed papers across the major learning-science topics: space
 - Higher-ed landscape, procurement, and accessibility
 - Funding landscape by stage — who funds edtech and what they require
 - Buyer personas, pilot benchmarks, and the ESSA evidence tiers (1–4)
+- **Buyer demand signals** — the durable jobs institutional buyers switch for ([`data/buyer-demand-signals.md`](data/buyer-demand-signals.md))
 
 ### ScaleU frameworks
 
-- **AI-native vs. bolted-on** — is your AI load-bearing or decorative ([`data/ai-native-framework.md`](data/ai-native-framework.md))
+- **Demand validation** — the 5-question diagnostic with scoring and depth probes ([`data/demand-validation.md`](data/demand-validation.md)), plus the JTBD Switch interview method for discovering real demand ([`data/jtbd-interviews.md`](data/jtbd-interviews.md))
 - **Higher-ed jobs atlas** — validated jobs across the student journey, with saturation analysis showing where everyone's already crowded ([`data/higher-ed-jobs-atlas.md`](data/higher-ed-jobs-atlas.md))
 - **Founder traps** — the structural patterns founders miss ([`data/founder-traps.md`](data/founder-traps.md))
+- **AI-native vs. bolted-on** — is your AI load-bearing or decorative ([`data/ai-native-framework.md`](data/ai-native-framework.md))
+- **Defensibility moats** — staying defensible when LLMs can copy your features ([`data/defensibility-moats.md`](data/defensibility-moats.md))
+- **AI risk & trust** — what AI does to learners before you ship a student-facing model ([`data/ai-risk-and-trust.md`](data/ai-risk-and-trust.md))
 - **The ethos** — seven principles, starting with "validate demand, not interest" ([`ETHOS.md`](ETHOS.md))
 
 ### Operator playbooks — `data/operator-lessons.md`
