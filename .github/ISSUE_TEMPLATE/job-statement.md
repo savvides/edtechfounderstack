@@ -17,7 +17,7 @@ labels: job-statement
 **Current workarounds** (what do they do today, and why does it fail?)
 
 
-**Proposed job statement** (format: "When [situation], I want to [motivation], so I can [outcome]" — see `data/jtbd-interviews.md`)
+**Proposed job statement** (format: "When [situation], I want to [motivation], so I can [outcome]" — see [data/jtbd-interviews.md](https://github.com/savvides/edtechfounderstack/blob/main/data/jtbd-interviews.md))
 
 
 **Evidence source** (how did you validate this? interviews, data, institutional experience?)
