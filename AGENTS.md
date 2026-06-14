@@ -25,4 +25,4 @@ Edit the relevant markdown in `data/`. Keep the existing structure and formattin
 
 ### Adding research papers
 
-Append to the relevant topic file in `data/research/`. Follow the table format — Title, Takeaway, Type, Year, Citations, DOI — and sort by citations descending. If the topic doesn't exist, create a new file and add it to `data/research/README.md`.
+Append to the relevant topic file in `data/research/`. Follow the table format — a leading `#` column, then Title, Takeaway, Type, Year, Citations, DOI — and sort by citations descending. If the topic doesn't exist, create a new file and add it to `data/research/README.md`.

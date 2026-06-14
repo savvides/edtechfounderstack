@@ -1,5 +1,3 @@
 @AGENTS.md
 
-<!-- Canonical, cross-tool project instructions live in AGENTS.md (the AGENTS.md standard,
-     read by Cursor, Codex, Copilot, Gemini CLI, and others). The import above loads them into
-     Claude Code, which reads CLAUDE.md but not AGENTS.md. Edit AGENTS.md, not this file. -->
+> Project instructions live in [AGENTS.md](AGENTS.md), the cross-tool standard. The line above imports them so Claude Code loads the same content (Claude Code reads CLAUDE.md, not AGENTS.md). Edit AGENTS.md, not this file.

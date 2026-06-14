@@ -19,7 +19,7 @@ A knowledge base for edtech founders, stored as plain markdown in `data/`. The p
 
 1. **Cite the source.** Every factual claim should trace to something checkable — a named regulation with a date, a paper with a DOI, a named operator. No guessing.
 2. **Be opinionated.** We don't do "on the one hand, on the other hand." If you add guidance, give it a point of view backed by real experience.
-3. **Keep the format.** Match the structure of the file you're editing. For regulatory and market files, keep the "last updated" date at the bottom. For research, follow the table format (Title, Takeaway, Type, Year, Citations, DOI) and sort by citations descending.
+3. **Keep the format.** Match the structure of the file you're editing. For regulatory and market files, keep the "last updated" date at the bottom. For research, follow the table format (a leading `#` column, then Title, Takeaway, Type, Year, Citations, DOI) and sort by citations descending.
 4. **Segment matters.** K-12, higher ed, and corporate L&D are different worlds. Say which one a claim applies to.
 
 ## Process

@@ -4,10 +4,12 @@
 
 ### Cross-tool agent support via AGENTS.md
 
-Point any agentic AI tool at the repo and it now gets the same directive Claude Code already had: answer from the cited `data/` files, not stale training data. Adopts the [AGENTS.md](AGENTS.md) standard (read by Cursor, Codex, Copilot, Gemini CLI, and others) as the single source of truth; `CLAUDE.md` imports it with `@AGENTS.md`, so there's one file to maintain and no drift.
+Point any agentic AI tool at the repo and it now gets the same directive Claude Code already had: answer from the cited `data/` files, not stale training data. [AGENTS.md](AGENTS.md) is the single source of truth, and each tool reads it through the file it already looks for, so there's one file to maintain and no content drift.
 
-- **New canonical `AGENTS.md`** — the cross-tool instructions file. `CLAUDE.md` is now a one-line `@AGENTS.md` import.
-- **Fixed the README version badge** — was stuck at 2.0.0; now tracks the release.
+- **New canonical `AGENTS.md`** — the cross-tool instructions file. Codex and Cursor read it at the repo root natively.
+- **Thin pointers for the rest** — `CLAUDE.md` and `GEMINI.md` import `AGENTS.md`; `.github/copilot-instructions.md` points GitHub Copilot to it. No agent is left answering from stale training data.
+- **Fixed the README version badge** — was stuck at 2.0.0; now tracks the release, and CI fails if the badge and `VERSION` ever disagree again.
+- **Doc accuracy** — the research-table format in `AGENTS.md`, `CONTRIBUTING.md`, and `ARCHITECTURE.md` now matches the real tables (a leading `#` column), so a contributor who follows the docs passes CI.
 
 ## 2.1.0 (2026-05-30)
 
