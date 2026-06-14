@@ -1,6 +1,6 @@
 # EdTech Founder Stack
 
-![Version](https://img.shields.io/badge/version-2.0.0-blue)
+![Version](https://img.shields.io/badge/version-2.1.1-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 **An open, AI-friendly knowledge base for edtech founders — built by [ASU ScaleU](https://scaleu.asu.edu).**
@@ -57,6 +57,8 @@ git clone https://github.com/savvides/edtechfounderstack.git
 - **Claude Code / Cursor:** open the repo and ask; the agent reads the relevant `data/` files.
 - **ChatGPT / Claude:** paste the file that fits your question, or upload the repo.
 - **Reading it yourself:** start with [`ETHOS.md`](ETHOS.md) for the worldview, [`data/operator-lessons.md`](data/operator-lessons.md) for the playbooks, or [`data/research/README.md`](data/research/README.md) for the evidence base.
+
+When you open the repo in an agentic tool (Claude Code, Cursor, Codex, GitHub Copilot, Gemini CLI), it reads a small instructions file that points it to [`AGENTS.md`](AGENTS.md) and tells it to ground answers in the cited `data/` files, not training data. Nothing to configure.
 
 Because it's markdown you can audit, every claim traces to something you can check — a named regulation, a paper with a DOI, a named operator.
 

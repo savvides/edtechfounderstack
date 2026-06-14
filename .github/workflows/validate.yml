@@ -53,3 +53,13 @@ jobs:
           echo "EdTech Founder Stack v$version"
           echo "  $datafiles data files"
           echo "  $research research topics"
+
+      - name: README version badge matches VERSION
+        run: |
+          version=$(cat VERSION 2>/dev/null | tr -d '[:space:]')
+          if ! grep -qF "version-${version}-blue" README.md; then
+            echo "ERROR: README version badge does not match VERSION ($version)"
+            grep -oE "version-[0-9.]+-blue" README.md || true
+            exit 1
+          fi
+          echo "README badge matches VERSION ($version)"
