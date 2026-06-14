@@ -1,5 +1,14 @@
 # Changelog
 
+## 2.1.1 (2026-06-13)
+
+### Cross-tool agent support via AGENTS.md
+
+Point any agentic AI tool at the repo and it now gets the same directive Claude Code already had: answer from the cited `data/` files, not stale training data. Adopts the [AGENTS.md](AGENTS.md) standard (read by Cursor, Codex, Copilot, Gemini CLI, and others) as the single source of truth; `CLAUDE.md` imports it with `@AGENTS.md`, so there's one file to maintain and no drift.
+
+- **New canonical `AGENTS.md`** — the cross-tool instructions file. `CLAUDE.md` is now a one-line `@AGENTS.md` import.
+- **Fixed the README version badge** — was stuck at 2.0.0; now tracks the release.
+
 ## 2.1.0 (2026-05-30)
 
 ### Demand-validation toolkit + knowledge from sibling repos
